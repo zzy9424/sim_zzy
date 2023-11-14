@@ -1,0 +1,44 @@
+i=0
+for replay in default PER EPER
+do
+  python train.py --env_name "MiniGrid-DistShift1-v0" \
+  --note noisy_obs_$replay \
+  --number $i \
+  --model_size large \
+  --epsilon_init 1 \
+  --epsilon_decay_step 1000000 \
+  --replay_max_size 100000 \
+  --batch_size 512  \
+  --max_timestep 2000000 \
+  --replay $replay \
+  --full_obs 1 \
+  --alpha 0.2 \
+  --lambda_decay 0.0005 \
+  --change_env 1 \
+  --change_timestep 1500000 \
+  --change_type noisy_obs
+  i=$((i+1))
+done
+
+
+for replay in default PER EPER
+do
+python train.py --env_name "MiniGrid-DistShift1-v0" \
+  --note obstacle_$replay \
+  --number $i \
+  --model_size large \
+  --epsilon_init 1 \
+  --epsilon_decay_step 1000000 \
+  --replay_max_size 100000 \
+  --batch_size 512  \
+  --max_timestep 2000000 \
+  --replay $replay  \
+  --full_obs 1 \
+  --alpha 0.4 \
+  --lambda_decay 0.0001\
+  --change_env 1 \
+  --change_timestep 1500000 \
+  --change_type obstacle \
+  --change_factor 1
+  i=$((i+1))
+done
