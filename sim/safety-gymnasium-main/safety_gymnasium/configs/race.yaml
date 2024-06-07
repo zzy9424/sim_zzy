@@ -1,0 +1,220 @@
+
+#          pos/size: [ 決定x, 決定y, 無用 ]
+#              注意：size的尺寸是pos的兩倍，如pos=1,1，size=1,1,的正方體實際橫跨0,2
+#          euler: [ 無用, 無用, 決定沿z軸旋轉的角度，1.57爲90度，3.14爲180度 ]
+#          rgba: [ 紅，綠，藍，不透明度 ]
+- walls:
+    walls:
+      name: walls
+      pos: [0, 0, 0]
+      geoms:
+        - name: wall_0
+          pos: [ 0.5, 2, 0 ]
+          euler: [ 0, 0, 0 ]
+          type: box
+          size: [ 0.5, 0.05, 0.5 ]
+          group: 2
+          rgba: [ 1.0, 1.0, 1.0, 0.5 ]
+        - name: wall_1
+          pos: [ 0.5, 1, 0 ]
+          euler: [ 0, 0, 0 ]
+          type: box
+          size: [ 0.5, 0.05, 0.5 ]
+          group: 2
+          rgba: [ 1.0, 1.0, 1.0, 0.5 ]
+        - name: wall_2
+          pos: [ 0.5, 0, 0 ]
+          euler: [ 0, 0, 0 ]
+          type: box
+          size: [ 0.5, 0.05, 0.5 ]
+          group: 2
+          rgba: [ 1.0, 1.0, 1.0, 0.5 ]
+        - name: wall_3
+          pos: [ 0, 1.5, 0 ]
+          euler: [ 0, 0, 1.57 ]
+          type: box
+          size: [ 0.5, 0.05, 0.5 ]
+          group: 2
+          rgba: [ 1.0, 0, 0, 0.5 ]
+        - name: wall_4
+          pos: [ 1, 0.5, 0 ]
+          euler: [ 0, 0, 1.57 ]
+          type: box
+          size: [ 0.5, 0.05, 0.5 ]
+          group: 2
+          rgba: [ 1.0, 0, 0, 0.5 ]
+        - name: p
+          pos: [ 1, 1, 0 ]
+          euler: [ 0, 0, 0 ]
+          type: box
+          size: [ 1, 1, 1 ]
+          group: 2
+          rgba: [ 1.0, 1.0, 0, 0.5 ]
+#        - name: bamboo_wall_1
+#          pos: [-2.5, -2.5, 0]
+#          euler: [0, 0, 0]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: bamboo_wall_2
+#          pos: [2.5, -2.5, 0]
+#          euler: [0, 0, 1.57]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: bamboo_wall_3
+#          pos: [2.5, 2.5, 0]
+#          euler: [0, 0, 3.14]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: bamboo_wall_4
+#          pos: [-2.5, 2.5, 0]
+#          euler: [0, 0, -1.57]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+
+#- walls:
+#    walls:
+#      name: walls
+#      pos: [0, 0, 0]
+#      geoms:
+#        - name: race_wall1_down
+#          pos: [-2.8, -2.1, 0]
+#          euler: [1.57, 1.57, 0]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: race_wall1_up
+#          pos: [-2.8, 0.355, 0]
+#          euler: [1.57, 1.57, 0]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: race_wall2_left
+#          pos: [-1.05, 1.75, 0]
+#          euler: [1.57, 0, 0]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: race_wall22_right
+#          pos: [1.75, 1.75, 0]
+#          euler: [1.57, 0, 0]
+#          type: mesh
+#          mesh: bamboo_wall
+#          material: bamboo_wall
+#          group: 2
+#        - name: race_wall3
+#          pos: [0.2, -0.175, 0]
+#          euler: [0, 0, 1.57]
+#          type: mesh
+#          mesh: cliff1
+#          material: cliff1
+#          group: 2
+#        - name: race_wall4
+#          pos: [0.65, -2.45, 0]
+#          euler: [0, 0, 0]
+#          type: mesh
+#          mesh: cliff2
+#          material: cliff2
+#          group: 2
+#        - name: race_wall5
+#          pos: [-1.75, -3.5, 0]
+#          euler: [1.57, 3.14, 0]
+#          type: mesh
+#          mesh: wooden_door1
+#          material: wooden_door1
+#          group: 2
+#        - name: small_stone1
+#          pos: [-2.45, 2.1, 0]
+#          euler: [0, 0, 1.57]
+#          type: mesh
+#          mesh: cliff3
+#          material: cliff3
+#          group: 2
+#        - name: small_stone2
+#          pos: [0.355, 2.1, 0]
+#          euler: [1.57, 0, 0]
+#          type: mesh
+#          mesh: cliff3
+#          material: cliff3
+#          group: 2
+#
+##- {}
+##
+##- walls:
+##    walls:
+##      name: walls
+##      pos: [0, 0, 0]
+##      geoms:
+##        - name: race_wall1_down
+##          pos: [-2.8, -2.1, 0]
+##          euler: [1.57, 1.57, 0]
+##          type: mesh
+##          mesh: bamboo_wall
+##          material: bamboo_wall
+##          group: 2
+##        - name: race_wall1_up
+##          pos: [-2.8, 0.355, 0]
+##          euler: [1.57, 1.57, 0]
+##          type: mesh
+##          mesh: bamboo_wall
+##          material: bamboo_wall
+##          group: 2
+##        - name: race_wall2_left
+##          pos: [-1.05, 1.75, 0]
+##          euler: [1.57, 0, 0]
+##          type: mesh
+##          mesh: bamboo_wall
+##          material: bamboo_wall
+##          group: 2
+##        - name: race_wall22_right
+##          pos: [1.75, 1.75, 0]
+##          euler: [1.57, 0, 0]
+##          type: mesh
+##          mesh: bamboo_wall
+##          material: bamboo_wall
+##          group: 2
+##        - name: race_wall3  # todo
+##          pos: [0.7, -0.175, 0]
+##          euler: [0, 0, 1.57]
+##          type: mesh
+##          mesh: cliff1
+##          material: cliff1
+##          group: 2
+##        - name: race_wall4
+##          pos: [0.65, -2.45, 0]
+##          euler: [0, 0, 0]
+##          type: mesh
+##          mesh: cliff2
+##          material: cliff2
+##          group: 2
+##        - name: race_wall5
+##          pos: [-1.75, -3.5, 0]
+##          euler: [1.57, 3.14, 0]
+##          type: mesh
+##          mesh: wooden_door1
+##          material: wooden_door1
+##          group: 2
+##        - name: small_stone1
+##          pos: [-2.45, 2.1, 0]
+##          euler: [0, 0, 1.57]
+##          type: mesh
+##          mesh: cliff3
+##          material: cliff3
+##          group: 2
+##        - name: small_stone2
+##          pos: [0.355, 2.1, 0]
+##          euler: [1.57, 0, 0]
+##          type: mesh
+##          mesh: cliff3
+##          material: cliff3
+##          group: 2
