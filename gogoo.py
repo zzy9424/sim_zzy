@@ -1,3 +1,5 @@
+import math
+
 from PIL import Image
 import yaml
 
@@ -53,7 +55,7 @@ def max_pixel_value(image, x):
     num_x_regions = width // x
     num_y_regions = height // x
 
-    new_image = Image.new(image.mode, (width, height))  # Create new image with the same mode
+    new_image = Image.new(image.mode, (width, height),(255,))  # Create new image with the same mode
 
     for i in range(num_x_regions):
         for j in range(num_y_regions):
@@ -156,14 +158,19 @@ def find_rectangles(coords):
 
 
 def coord2yaml(coords):
+    scale = 0.1
     walls = []
     for idx, coord in enumerate(coords):
+        x0 = coord[0][0]
+        y0 = coord[0][1]
+        x1 = coord[1][0]
+        y1 = coord[0][1]
         wall = {
             'name': f'wall_{idx}',
-            'pos': [coord[0], coord[1], 0],
+            'pos': [(x0+x1)/2*scale,(y0+y1)/2*scale, 0],
             'euler': [0, 0, 0],
             'type': 'box',
-            'size': [0.5, 0.05, 0.5],
+            'size': [abs((x1-x0))/2*scale,abs((y1-y0))/2*scale, 0.5],
             'group': 2,
             'rgba': [1.0, 1.0, 1.0, 0.5]
         }
@@ -214,6 +221,7 @@ def main():
 
     # 转为矩阵
     mat = image_to_gray_matrix(processed_image)
+    print(mat)
     rows = len(mat)
     cols = len(mat[0]) if rows > 0 else 0
     print(rows,cols,rows*cols)
@@ -224,9 +232,11 @@ def main():
 
     # 转为矩形墙
     recs=find_rectangles(coord)
-    show_recs(recs)
-    print(len(recs))
-    yaml_output = coord2yaml(coord)
+    # show_recs(recs)
+    # print(len(recs))
+
+    # 转为yaml格式
+    yaml_output = coord2yaml(recs)
     with open("output.yaml", 'w') as file:
         file.write(yaml_output)
     processed_image.save(output_image_path)
