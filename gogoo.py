@@ -155,7 +155,9 @@ def find_rectangles(coords):
             rectangles.append(((x, y), (max_x, max_y)))
 
     return rectangles
-
+class OrderedDumper(yaml.SafeDumper):
+    def represent_dict(self, data):
+        return self.represent_mapping('tag:yaml.org,2002:map', data.items())
 
 def coord2yaml(coords):
     scale = 0.01
@@ -188,8 +190,10 @@ def coord2yaml(coords):
             }
         }
     }
+    yaml.add_representer(dict, OrderedDumper.represent_dict)
 
-    yaml_str = yaml.dump(data)
+    yaml_str = yaml.dump(data, Dumper=OrderedDumper, sort_keys=False)
+
 
     return yaml_str
 import matplotlib.pyplot as plt
