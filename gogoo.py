@@ -181,9 +181,11 @@ def coord2yaml(coords):
 
     data = {
         'walls': {
-            'name': 'walls',
-            'pos': [0, 0, 0],
-            'geoms': walls
+            'walls': {
+                'name': 'walls',
+                'pos': [0, 0, 0],
+                'geoms': walls
+            }
         }
     }
 
