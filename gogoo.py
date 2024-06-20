@@ -1,4 +1,5 @@
 import math
+import textwrap
 
 from PIL import Image
 import yaml
@@ -182,18 +183,17 @@ def coord2yaml(coords):
         walls.append(wall)
 
     data = {
-        'walls': {
             'walls': {
                 'name': 'walls',
                 'pos': [0, 0, 0],
                 'geoms': walls
             }
         }
-    }
     yaml.add_representer(dict, OrderedDumper.represent_dict)
 
     yaml_str = yaml.dump(data, Dumper=OrderedDumper, sort_keys=False)
-    yaml_str = "- "+yaml_str
+    yaml_str = "- walls:\n" + textwrap.indent(yaml_str, '    ')
+
     return yaml_str
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
