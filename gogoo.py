@@ -158,7 +158,7 @@ def find_rectangles(coords):
 
 
 def coord2yaml(coords):
-    scale = 0.1
+    scale = 0.01
     walls = []
     for idx, coord in enumerate(coords):
         x0 = coord[0][0]
