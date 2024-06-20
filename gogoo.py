@@ -184,7 +184,7 @@ def coord2yaml(coords):
         }
     }
 
-    yaml_str = yaml.dump(data, default_flow_style=False, indent=None).replace('\n', ',\n').rstrip(',')
+    yaml_str = yaml.dump(data)
 
     return yaml_str
 import matplotlib.pyplot as plt
@@ -221,14 +221,11 @@ def main():
 
     # 转为矩阵
     mat = image_to_gray_matrix(processed_image)
-    print(mat)
     rows = len(mat)
     cols = len(mat[0]) if rows > 0 else 0
-    print(rows,cols,rows*cols)
 
     # 获取墙的坐标
     coord = find_wall_coord(mat)
-    print(len(coord))
 
     # 转为矩形墙
     recs=find_rectangles(coord)
