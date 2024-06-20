@@ -167,7 +167,7 @@ def coord2yaml(coords):
         x0 = coord[0][0]
         y0 = coord[0][1]
         x1 = coord[1][0]
-        y1 = coord[0][1]
+        y1 = coord[1][1]
         print(x0,y0,x1,y1)
         # print("pos ",(x0+x1)/2*scale,(y0+y1)/2*scale)
         print("size ",abs((x1-x0))/2*scale,abs((y1-y0))/2*scale)
@@ -177,7 +177,7 @@ def coord2yaml(coords):
             'pos': [(x0+x1)/2*scale,(y0+y1)/2*scale, 0.5],
             'euler': [0, 0, 0],
             'type': 'box',
-            'size': [abs((x1-x0))/2*scale+0.01,abs((y1-y0))/2*scale+0.01, 0.1],
+            'size': [abs((x1-x0))/2*scale,abs((y1-y0))/2*scale, 0.1],
             'group': 2,
             'rgba': [1.0, 1.0, 1.0, 0.5]
         }
