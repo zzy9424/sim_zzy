@@ -173,7 +173,7 @@ def coord2yaml(coords):
             'pos': [(x0+x1)/2*scale,(y0+y1)/2*scale, 0.5],
             'euler': [0, 0, 0],
             'type': 'box',
-            'size': [abs((x1-x0))/2*scale,abs((y1-y0))/2*scale+0.5, 0.5],
+            'size': [0.1，0.1, 0.1],
             'group': 2,
             'rgba': [1.0, 1.0, 1.0, 0.5]
         }
