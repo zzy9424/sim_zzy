@@ -193,8 +193,7 @@ def coord2yaml(coords):
     yaml.add_representer(dict, OrderedDumper.represent_dict)
 
     yaml_str = yaml.dump(data, Dumper=OrderedDumper, sort_keys=False)
-
-
+    yaml_str = "- "+yaml_str
     return yaml_str
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
