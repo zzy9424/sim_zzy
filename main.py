@@ -3,7 +3,7 @@ import yaml
 
 file_path="output.yaml"
 with open(file_path, 'r') as file:
-    config = yaml.safe_load(file)
+    wall_config = yaml.safe_load(file)
 config = {
     'lidar_conf.max_dist': 3,
     'lidar_conf.num_bins': 16,
@@ -23,6 +23,7 @@ config = {
         'is_lidar_observed': True,
     },
 }
+config["Walls"]= wall_config["walls"]
 env_id = 'SafetyPointGoalBase-v0'
 env = safety_gymnasium.make(env_id, render_mode="human",config=config)
 # env = safety_gymnasium.make(env_id)
