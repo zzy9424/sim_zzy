@@ -1,15 +1,15 @@
 import safety_gymnasium
-
-env_id = 'SafetyCarRace0-v0'
-env = safety_gymnasium.make(env_id, render_mode="human")
-# env = safety_gymnasium.make(env_id)
-obs, info = env.reset()
-while True:
-    act = env.action_space.sample()
-    obs, reward, cost, terminated, truncated, info = env.step(act)
-    if terminated or truncated:
-        break
-    # env.render()
+#
+# env_id = 'SafetyCarRace0-v0'
+# env = safety_gymnasium.make(env_id, render_mode="human")
+# # env = safety_gymnasium.make(env_id)
+# obs, info = env.reset()
+# while True:
+#     act = env.action_space.sample()
+#     obs, reward, cost, terminated, truncated, info = env.step(act)
+#     if terminated or truncated:
+#         break
+#     # env.render()
 
 # Copyright 2022-2024 OmniSafe Team. All Rights Reserved.
 #
@@ -24,10 +24,6 @@ while True:
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-from __future__ import annotations
-
-import safety_gymnasium
 
 
 if __name__ == '__main__':
