@@ -24,7 +24,7 @@ config = {
         'is_lidar_observed': True,
     },
 }
-config["Walls"]= wall_config["walls"]
+config["Walls"]= wall_config[0]["walls"]
 env_id = 'SafetyPointGoalBase-v0'
 env = safety_gymnasium.make(env_id, render_mode="human",config=config)
 # env = safety_gymnasium.make(env_id)
