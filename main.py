@@ -4,6 +4,7 @@ import yaml
 file_path="output.yaml"
 with open(file_path, 'r') as file:
     wall_config = yaml.safe_load(file)
+print(wall_config)
 config = {
     'lidar_conf.max_dist': 3,
     'lidar_conf.num_bins': 16,
