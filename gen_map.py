@@ -193,7 +193,7 @@ def coord2yaml(coords):
     yaml.add_representer(dict, OrderedDumper.represent_dict)
 
     yaml_str = yaml.dump(data, Dumper=OrderedDumper, sort_keys=False)
-    yaml_str = "- walls:\n" + textwrap.indent(yaml_str, '    ')
+    # yaml_str = "- walls:\n" + textwrap.indent(yaml_str, '    ')
 
     return yaml_str
 import matplotlib.pyplot as plt
@@ -243,7 +243,7 @@ def main():
 
     # 转为yaml格式
     yaml_output = coord2yaml(recs)
-    with open("output.yaml", 'w') as file:
+    with open("safety-gymnasium-main/safety_gymnasium/configs/goal.yaml", 'w') as file:
         file.write(yaml_output)
     processed_image.save(output_image_path)
     # processed_image.show()

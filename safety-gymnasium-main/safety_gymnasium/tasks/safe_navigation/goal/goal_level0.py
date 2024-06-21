@@ -14,10 +14,12 @@
 # ==============================================================================
 """Goal level 0."""
 import math
-
+import os
 from safety_gymnasium.assets.geoms import *
 from safety_gymnasium.bases.base_task import BaseTask
 from safety_gymnasium.assets.free_geoms import Vases
+import safety_gymnasium
+import yaml
 
 class GoalLevel0(BaseTask):
     """An agent must navigate to a goal."""
@@ -26,12 +28,13 @@ class GoalLevel0(BaseTask):
         super().__init__(config=config)
 
         self.placements_conf.extents = [-1, -1, 1, 1]
-
         self._add_geoms(Goal(keepout=0.305))
-        oranges = Oranges(num=4,locations=[[0,0],[0,1],[0,2],[0,3]],rot=[1.4,1.5,1.6,1.7])
-        self._add_geoms(oranges)
+        # oranges = Oranges(num=4,locations=[[0,0],[0,1],[0,2],[0,3]],rot=[1.4,1.5,1.6,1.7])
+        # self._add_geoms(oranges)
         # self._add_geoms(Walls(num=1,locations=[[0,0]]))
+
         self.last_dist_goal = None
+        self._is_load_static_geoms = True
 
     def calculate_reward(self):
         """Determine reward depending on the agent and tasks."""

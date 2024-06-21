@@ -23,7 +23,6 @@ class GoalBase(BaseTask):
     def __init__(self, config) -> None:
         assert 'Goal' in config, '`config` must have the field `Goal`'
         super().__init__(config=config)
-
         self.last_dist_goal = None
 
     def calculate_reward(self):

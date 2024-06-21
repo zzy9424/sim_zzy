@@ -320,6 +320,7 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
             num = obstacle.num if hasattr(obstacle, 'num') else 1
             obstacle.process_config(world_config, layout, self.random_generator.generate_rots(num))
         if self._is_load_static_geoms:
+            print("hejjjjj")
             self._build_static_geoms_config(world_config['geoms'])
 
         return world_config
@@ -332,6 +333,7 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
         Some tasks may generate cost when contacting static geoms.
         """
         config_name = camel_to_snake(self.task_name)
+        print(config_name)
         level = int(self.__class__.__name__.split('Level')[1])
 
         # load all config of meshes in specific environment from .yaml file
