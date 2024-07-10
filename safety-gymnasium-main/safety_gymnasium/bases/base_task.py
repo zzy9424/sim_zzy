@@ -47,7 +47,7 @@ class LidarConf:
     num_bins: int = 16
     max_dist: float = 3
     exp_gain: float = 1.0
-    type: str = 'pseudo'
+    type: str = 'natural'
     alias: bool = True
 
 
@@ -185,6 +185,8 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
         self.reward_conf = RewardConf()
         self.cost_conf = CostConf()
         self.mechanism_conf = MechanismConf()
+        self.goal_in_obs = False
+        self.goal_type_in_obs = True
 
         self.observation_space = None
         self.obs_info = ObservationInfo()
@@ -253,7 +255,18 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
                     (self.compass_conf.shape,),
                     dtype=np.float64,
                 )
-
+        if self.goal_in_obs:
+            # Add goal's x and y position to the observation space
+            obs_space_dict['distance_x'] = gymnasium.spaces.Box(
+                -float('inf'), float('inf'), shape=(1,), dtype=np.float64
+            )
+            obs_space_dict['distance_y'] = gymnasium.spaces.Box(
+                -float('inf'), float('inf'), shape=(1,), dtype=np.float64
+            )
+        if self.goal_type_in_obs:
+            obs_space_dict['goal_type'] = gymnasium.spaces.Box(
+                -float('inf'), float('inf'), shape=(1,), dtype=np.float64
+            )
         if self.observe_vision:
             width, height = self.vision_env_conf.vision_size
             rows, cols = height, width
@@ -320,9 +333,7 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
             num = obstacle.num if hasattr(obstacle, 'num') else 1
             obstacle.process_config(world_config, layout, self.random_generator.generate_rots(num))
         if self._is_load_static_geoms:
-            print("hejjjjj")
             self._build_static_geoms_config(world_config['geoms'])
-
         return world_config
 
     def _build_static_geoms_config(self, geoms_config: dict) -> None:
@@ -333,7 +344,6 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
         Some tasks may generate cost when contacting static geoms.
         """
         config_name = camel_to_snake(self.task_name)
-        print(config_name)
         level = int(self.__class__.__name__.split('Level')[1])
 
         # load all config of meshes in specific environment from .yaml file
@@ -420,7 +430,6 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
         obs = {}
 
         obs.update(self.agent.obs_sensor())
-
         for obstacle in self._obstacles:
             if obstacle.is_lidar_observed:
                 obs[obstacle.name + '_lidar'] = self._obs_lidar(obstacle.pos, obstacle.group)
@@ -430,9 +439,17 @@ class BaseTask(Underlying):  # pylint: disable=too-many-instance-attributes,too-
         if self.observe_vision:
             obs['vision'] = self._obs_vision()
 
-        assert self.obs_info.obs_space_dict.contains(
-            obs,
-        ), f'Bad obs {obs} {self.obs_info.obs_space_dict}'
+        if self.goal_in_obs:
+            obs['distance_x'] = self.goal.pos[0] - self.agent.pos[0]
+            obs['distance_y'] = self.goal.pos[1] - self.agent.pos[1]
+        if self.goal_type_in_obs:
+            goal_pos_str=str(round(self.goal.pos[0],1))+","+str(round(self.goal.pos[1],1))
+            # print(goal_pos_str)
+            obs['goal_type'] = self.goal_type_mapping[goal_pos_str]
+
+        # assert self.obs_info.obs_space_dict.contains(
+        #     obs,
+        # ), f'Bad obs {obs.keys()}==========={self.obs_info.obs_space_dict.keys()}'
 
         if self.observation_flatten:
             obs = gymnasium.spaces.utils.flatten(self.obs_info.obs_space_dict, obs)

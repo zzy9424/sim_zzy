@@ -14,6 +14,8 @@
 """Configuration file to create GoalLevel0."""
 
 goal_level0 = {
-    'placements_conf.extents': [-1, -1, 1, 1],
-    'Goal': {'keepout': 0.305},
+    'Goal': {
+        'size': 0.1,
+        'locations': [(1.1, 1.1)],
+    },
 }

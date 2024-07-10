@@ -262,6 +262,7 @@ class Underlying(abc.ABC):  # pylint: disable=too-many-instance-attributes
         agent_cls = getattr(agents, agent_name)
         self.agent = agent_cls(random_generator=self.random_generator)
 
+
     def _add_geoms(self, *added_geoms: Geom) -> None:
         """Register geom type objects into environments and set corresponding attributes."""
         for geom in added_geoms:

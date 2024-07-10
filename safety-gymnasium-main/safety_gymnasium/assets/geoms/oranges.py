@@ -33,7 +33,7 @@ class Oranges(Geom):  # pylint: disable=too-many-instance-attributes
 
     name: str = 'oranges'
     num: int = 0
-    size: float = 0.3
+    size: float = 0.5
     placements: list = None  # Placements where goal may appear (defaults to full extents)
     locations: list = field(default_factory=list)  # Fixed locations to override placements
     keepout: float = 0.3  # Keepout radius when placing goals
@@ -52,7 +52,7 @@ class Oranges(Geom):  # pylint: disable=too-many-instance-attributes
     is_meshed: bool = False
     mesh_name: str = name[:-1]
 
-    def get_config(self, xy_pos, rot):
+    def get_config(self, xy_pos, rot,index):
         """To facilitate get specific config for this object."""
         body = {
             'name': self.name,

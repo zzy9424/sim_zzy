@@ -47,6 +47,7 @@ class SensorConf:
     """
 
     sensors: tuple[str, ...] = ('accelerometer', 'velocimeter', 'gyro', 'magnetometer')
+    # sensors: tuple[str, ...] = ('accelerometer', 'velocimeter', 'gyro')
     sensors_hinge_joints: bool = True
     sensors_ball_joints: bool = True
     sensors_angle_components: bool = True

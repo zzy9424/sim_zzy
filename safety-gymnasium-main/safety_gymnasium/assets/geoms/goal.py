@@ -42,7 +42,7 @@ class Goal(Geom):  # pylint: disable=too-many-instance-attributes
     color: np.ndarray = COLOR['goal']
     alpha: float = 0.25
     group: np.ndarray = GROUP['goal']
-    is_lidar_observed: bool = True
+    is_lidar_observed: bool = False
     is_comp_observed: bool = False
     is_constrained: bool = False
     is_meshed: bool = False
@@ -50,7 +50,7 @@ class Goal(Geom):  # pylint: disable=too-many-instance-attributes
     mesh_euler: list = field(default_factory=lambda: [np.pi / 2, 0, 0])
     mesh_height: float = -0.7
 
-    def get_config(self, xy_pos, rot):
+    def get_config(self, xy_pos, rot,index):
         """To facilitate get specific config for this object."""
         body = {
             'name': self.name,

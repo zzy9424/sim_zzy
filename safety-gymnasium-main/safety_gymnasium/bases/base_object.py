@@ -108,19 +108,18 @@ class BaseObject(abc.ABC):
             fill the configuration dictionary which used to generate mujoco instance xml string of
             environments in :meth:`safety_gymnasium.World.build`.
         """
-        print(config)
         if hasattr(self, 'num'):
             assert (
                 len(rots) == self.num
             ), 'The number of rotations should be equal to the number of obstacles.'
             for i in range(self.num):
                 name = f'{self.name[:-1]}{i}'
-                config[self.type][name] = self.get_config(xy_pos=layout[name], rot=rots[i])
+                config[self.type][name] = self.get_config(xy_pos=layout[name], rot=rots[i],index=i)
                 config[self.type][name].update({'name': name})
                 config[self.type][name]['geoms'][0].update({'name': name})
         else:
             assert len(rots) == 1, 'The number of rotations should be 1.'
-            config[self.type][self.name] = self.get_config(xy_pos=layout[self.name], rot=rots[0])
+            config[self.type][self.name] = self.get_config(xy_pos=layout[self.name], rot=rots[0],index=0)
 
     def _specific_agent_config(self) -> None:  # noqa: B027
         """Modify properties according to specific agent.
@@ -141,7 +140,7 @@ class BaseObject(abc.ABC):
         raise NotImplementedError
 
     @abc.abstractmethod
-    def get_config(self, xy_pos: np.ndarray, rot: float):
+    def get_config(self, xy_pos: np.ndarray, rot: float,index = None):
         """Get the config of the obstacle.
 
         Returns:
@@ -204,7 +203,7 @@ class Mocap(BaseObject):
                 mocap_name = f'{self.name[:-1]}{i}mocap'
                 obj_name = f'{self.name[:-1]}{i}obj'
                 layout_name = f'{self.name[:-1]}{i}'
-                configs = self.get_config(xy_pos=layout[layout_name], rot=rots[i])
+                configs = self.get_config(xy_pos=layout[layout_name], rot=rots[i],index=i)
                 config['free_geoms'][obj_name] = configs['obj']
                 config['free_geoms'][obj_name].update({'name': obj_name})
                 config['free_geoms'][obj_name]['geoms'][0].update({'name': obj_name})
@@ -216,7 +215,7 @@ class Mocap(BaseObject):
             mocap_name = f'{self.name[:-1]}mocap'
             obj_name = f'{self.name[:-1]}obj'
             layout_name = self.name[:-1]
-            configs = self.get_config(xy_pos=layout[layout_name], rot=rots[0])
+            configs = self.get_config(xy_pos=layout[layout_name], rot=rots[0],index=0)
             config['free_geoms'][obj_name] = configs['obj']
             config['free_geoms'][obj_name].update({'name': obj_name})
             config['free_geoms'][obj_name]['geoms'][0].update({'name': obj_name})

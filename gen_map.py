@@ -161,23 +161,41 @@ class OrderedDumper(yaml.SafeDumper):
         return self.represent_mapping('tag:yaml.org,2002:map', data.items())
 
 def coord2yaml(coords):
-    scale = 0.01
+    scale = 0.04
+    offset_x = 0
+    offset_y = 0
     walls = []
+    # print(x0,y0,x1,y1)
+    # print("pos ",(x0+x1)/2*scale,(y0+y1)/2*scale)
+    # print("size ",abs((x1-x0))/2*scale,abs((y1-y0))/2*scale)
+    # 提取所有的 x 和 y 值
+    x_values = [x for coord in coords for x, y in coord]
+    y_values = [y for coord in coords for x, y in coord]
+
+    # # 找到最小值和最大值
+    # min_x = min(x_values)
+    # max_x = max(x_values)
+    # min_y = min(y_values)
+    # max_y = max(y_values)
+    #
+    # 计算中心点
+    center_x = (min(x_values) + max(x_values)) / 2
+    center_y = (min(y_values) + max(y_values)) / 2
+
+    # 平移所有坐标
+    coords = [((x0 - center_x, y0 - center_y), (x1 - center_x, y1 - center_y)) for (x0, y0), (x1, y1) in coords]
+
     for idx, coord in enumerate(coords):
         x0 = coord[0][0]
         y0 = coord[0][1]
         x1 = coord[1][0]
         y1 = coord[1][1]
-        print(x0,y0,x1,y1)
-        # print("pos ",(x0+x1)/2*scale,(y0+y1)/2*scale)
-        print("size ",abs((x1-x0))/2*scale,abs((y1-y0))/2*scale)
-
         wall = {
             'name': f'wall_{idx}',
-            'pos': [(x0+x1)/2*scale,(y0+y1)/2*scale, 0.5],
+            'pos': [(x0+x1)/2*scale,(y0+y1)/2*scale, 0],
             'euler': [0, 0, 0],
             'type': 'box',
-            'size': [abs((x1-x0))/2*scale,abs((y1-y0))/2*scale, 0.1],
+            'size': [abs((x1-x0))/2*scale,abs((y1-y0))/2*scale, 0.25],
             'group': 2,
             'rgba': [1.0, 1.0, 1.0, 0.5]
         }
@@ -193,7 +211,7 @@ def coord2yaml(coords):
     yaml.add_representer(dict, OrderedDumper.represent_dict)
 
     yaml_str = yaml.dump(data, Dumper=OrderedDumper, sort_keys=False)
-    # yaml_str = "- walls:\n" + textwrap.indent(yaml_str, '    ')
+    yaml_str = "- walls:\n" + textwrap.indent(yaml_str, '    ')
 
     return yaml_str
 import matplotlib.pyplot as plt

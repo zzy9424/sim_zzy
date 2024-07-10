@@ -176,6 +176,8 @@ class Builder(gymnasium.Env, gymnasium.utils.EzPickle):
         self.terminated = False
         self.truncated = False
         self.steps = 0  # Count of steps taken in this episode
+        if hasattr(self.task,"specific_pre_reset"):
+            self.task.specific_pre_reset()
 
         self.task.reset()
         self.task.specific_reset()

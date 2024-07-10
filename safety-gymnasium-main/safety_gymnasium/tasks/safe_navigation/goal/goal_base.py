@@ -13,9 +13,10 @@
 # limitations under the License.
 # ==============================================================================
 """Goal with a custom config."""
-
+from collections import OrderedDict
 from safety_gymnasium.bases.base_task import BaseTask
-
+import gymnasium
+import numpy as np
 
 class GoalBase(BaseTask):
     """An agent must navigate to a goal."""
