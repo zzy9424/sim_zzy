@@ -37865,3 +37865,4011 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 |         Value/RewardAdv |          -3e-09 |
 |           Value/CostAdv |       -3.84e-14 |
 ---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.899 |
+|             Train/Epoch |             791 |
+|        Train/TotalSteps |        1.58e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0222 |
+|                Train/LR |        6.27e-05 |
+| Loss/Loss_reward_critic |          0.0219 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |         -0.0102 |
+|            Time/Rollout |             125 |
+|             Time/Update |            11.7 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |        3.43e-09 |
+|           Value/CostAdv |        -1.2e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.75 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |           0.912 |
+|             Train/Epoch |             792 |
+|        Train/TotalSteps |        1.58e+07 |
+|          Train/StopIter |               2 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        6.24e-05 |
+| Loss/Loss_reward_critic |          0.0271 |
+|   Loss/Loss_cost_critic |        1.61e-10 |
+|         Loss/Loss_actor |         0.00437 |
+|            Time/Rollout |             123 |
+|             Time/Update |            2.43 |
+|              Time/Total |             125 |
+|         Value/RewardAdv |        5.15e-09 |
+|           Value/CostAdv |        3.21e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             207 |
+|            Metrics/Done |           0.927 |
+|             Train/Epoch |             793 |
+|        Train/TotalSteps |        1.59e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0214 |
+|                Train/LR |        6.21e-05 |
+| Loss/Loss_reward_critic |          0.0241 |
+|   Loss/Loss_cost_critic |        2.91e-10 |
+|         Loss/Loss_actor |         -0.0117 |
+|            Time/Rollout |             127 |
+|             Time/Update |            11.1 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |       -3.81e-10 |
+|           Value/CostAdv |        9.42e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             212 |
+|            Metrics/Done |           0.924 |
+|             Train/Epoch |             794 |
+|        Train/TotalSteps |        1.59e+07 |
+|          Train/StopIter |               8 |
+|                Train/KL |          0.0236 |
+|                Train/LR |        6.18e-05 |
+| Loss/Loss_reward_critic |          0.0265 |
+|   Loss/Loss_cost_critic |        2.23e-10 |
+|         Loss/Loss_actor |           -0.01 |
+|            Time/Rollout |             123 |
+|             Time/Update |            9.99 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |        4.98e-09 |
+|           Value/CostAdv |        6.56e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             795 |
+|        Train/TotalSteps |        1.59e+07 |
+|          Train/StopIter |               1 |
+|                Train/KL |          0.0234 |
+|                Train/LR |        6.15e-05 |
+| Loss/Loss_reward_critic |          0.0288 |
+|   Loss/Loss_cost_critic |        2.01e-10 |
+|         Loss/Loss_actor |         0.00764 |
+|            Time/Rollout |             118 |
+|             Time/Update |            1.25 |
+|              Time/Total |             119 |
+|         Value/RewardAdv |       -1.02e-08 |
+|           Value/CostAdv |       -2.89e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.71 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             796 |
+|        Train/TotalSteps |        1.59e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0237 |
+|                Train/LR |        6.12e-05 |
+| Loss/Loss_reward_critic |          0.0293 |
+|   Loss/Loss_cost_critic |        1.51e-10 |
+|         Loss/Loss_actor |        -0.00799 |
+|            Time/Rollout |             116 |
+|             Time/Update |            8.77 |
+|              Time/Total |             124 |
+|         Value/RewardAdv |        1.13e-08 |
+|           Value/CostAdv |       -2.74e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.73 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             243 |
+|            Metrics/Done |             0.9 |
+|             Train/Epoch |             797 |
+|        Train/TotalSteps |        1.59e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0205 |
+|                Train/LR |        6.09e-05 |
+| Loss/Loss_reward_critic |           0.029 |
+|   Loss/Loss_cost_critic |        1.32e-10 |
+|         Loss/Loss_actor |         -0.0134 |
+|            Time/Rollout |             120 |
+|             Time/Update |              15 |
+|              Time/Total |             135 |
+|         Value/RewardAdv |       -8.11e-09 |
+|           Value/CostAdv |        2.89e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |            0.91 |
+|             Train/Epoch |             798 |
+|        Train/TotalSteps |         1.6e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0207 |
+|                Train/LR |        6.06e-05 |
+| Loss/Loss_reward_critic |          0.0256 |
+|   Loss/Loss_cost_critic |        1.24e-10 |
+|         Loss/Loss_actor |        -0.00717 |
+|            Time/Rollout |             119 |
+|             Time/Update |            7.43 |
+|              Time/Total |             127 |
+|         Value/RewardAdv |        1.43e-09 |
+|           Value/CostAdv |       -1.12e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             207 |
+|            Metrics/Done |           0.938 |
+|             Train/Epoch |             799 |
+|        Train/TotalSteps |         1.6e+07 |
+|          Train/StopIter |               5 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        6.03e-05 |
+| Loss/Loss_reward_critic |          0.0235 |
+|   Loss/Loss_cost_critic |        1.35e-10 |
+|         Loss/Loss_actor |        -0.00724 |
+|            Time/Rollout |             128 |
+|             Time/Update |            6.06 |
+|              Time/Total |             134 |
+|         Value/RewardAdv |        1.91e-10 |
+|           Value/CostAdv |       -2.93e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |           0.905 |
+|             Train/Epoch |             800 |
+|        Train/TotalSteps |         1.6e+07 |
+|          Train/StopIter |               2 |
+|                Train/KL |          0.0227 |
+|                Train/LR |           6e-05 |
+| Loss/Loss_reward_critic |          0.0223 |
+|   Loss/Loss_cost_critic |        1.49e-10 |
+|         Loss/Loss_actor |         0.00282 |
+|            Time/Rollout |             115 |
+|             Time/Update |             2.4 |
+|              Time/Total |             117 |
+|         Value/RewardAdv |         9.2e-09 |
+|           Value/CostAdv |        2.71e-14 |
+---------------------------------------------
+[32mSave model to disk...[0m
+[32mDone.[0m
+[32mSave model to disk...[0m
+[32mDone.[0m
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             245 |
+|            Metrics/Done |           0.863 |
+|             Train/Epoch |             801 |
+|        Train/TotalSteps |         1.6e+07 |
+|          Train/StopIter |               1 |
+|                Train/KL |          0.0258 |
+|                Train/LR |        5.97e-05 |
+| Loss/Loss_reward_critic |          0.0207 |
+|   Loss/Loss_cost_critic |        1.59e-10 |
+|         Loss/Loss_actor |         0.00777 |
+|            Time/Rollout |             108 |
+|             Time/Update |            1.22 |
+|              Time/Total |             109 |
+|         Value/RewardAdv |        1.02e-08 |
+|           Value/CostAdv |       -1.13e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             247 |
+|            Metrics/Done |           0.898 |
+|             Train/Epoch |             802 |
+|        Train/TotalSteps |         1.6e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |           0.023 |
+|                Train/LR |        5.94e-05 |
+| Loss/Loss_reward_critic |          0.0262 |
+|   Loss/Loss_cost_critic |        1.41e-10 |
+|         Loss/Loss_actor |        -0.00477 |
+|            Time/Rollout |             117 |
+|             Time/Update |            7.44 |
+|              Time/Total |             124 |
+|         Value/RewardAdv |        -2.1e-09 |
+|           Value/CostAdv |        7.38e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.73 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             248 |
+|            Metrics/Done |           0.857 |
+|             Train/Epoch |             803 |
+|        Train/TotalSteps |        1.61e+07 |
+|          Train/StopIter |               8 |
+|                Train/KL |          0.0249 |
+|                Train/LR |        5.91e-05 |
+| Loss/Loss_reward_critic |          0.0292 |
+|   Loss/Loss_cost_critic |        1.33e-10 |
+|         Loss/Loss_actor |        -0.00902 |
+|            Time/Rollout |            98.3 |
+|             Time/Update |            9.76 |
+|              Time/Total |             108 |
+|         Value/RewardAdv |        1.29e-08 |
+|           Value/CostAdv |        6.18e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.64 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             265 |
+|            Metrics/Done |           0.882 |
+|             Train/Epoch |             804 |
+|        Train/TotalSteps |        1.61e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        5.88e-05 |
+| Loss/Loss_reward_critic |          0.0265 |
+|   Loss/Loss_cost_critic |         1.4e-10 |
+|         Loss/Loss_actor |        -0.00777 |
+|            Time/Rollout |             114 |
+|             Time/Update |            8.65 |
+|              Time/Total |             123 |
+|         Value/RewardAdv |        3.24e-09 |
+|           Value/CostAdv |        2.41e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.74 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             242 |
+|            Metrics/Done |           0.868 |
+|             Train/Epoch |             805 |
+|        Train/TotalSteps |        1.61e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |           0.029 |
+|                Train/LR |        5.85e-05 |
+| Loss/Loss_reward_critic |          0.0227 |
+|   Loss/Loss_cost_critic |        1.27e-10 |
+|         Loss/Loss_actor |        -0.00666 |
+|            Time/Rollout |             105 |
+|             Time/Update |             8.5 |
+|              Time/Total |             113 |
+|         Value/RewardAdv |       -3.91e-09 |
+|           Value/CostAdv |        -4.3e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             254 |
+|            Metrics/Done |           0.885 |
+|             Train/Epoch |             806 |
+|        Train/TotalSteps |        1.61e+07 |
+|          Train/StopIter |               5 |
+|                Train/KL |            0.02 |
+|                Train/LR |        5.82e-05 |
+| Loss/Loss_reward_critic |          0.0187 |
+|   Loss/Loss_cost_critic |        1.37e-10 |
+|         Loss/Loss_actor |        -0.00455 |
+|            Time/Rollout |             107 |
+|             Time/Update |            6.29 |
+|              Time/Total |             113 |
+|         Value/RewardAdv |        8.34e-09 |
+|           Value/CostAdv |         2.8e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             251 |
+|            Metrics/Done |           0.881 |
+|             Train/Epoch |             807 |
+|        Train/TotalSteps |        1.61e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0239 |
+|                Train/LR |        5.79e-05 |
+| Loss/Loss_reward_critic |          0.0185 |
+|   Loss/Loss_cost_critic |        1.71e-10 |
+|         Loss/Loss_actor |        -0.00643 |
+|            Time/Rollout |             115 |
+|             Time/Update |            8.79 |
+|              Time/Total |             123 |
+|         Value/RewardAdv |        1.62e-09 |
+|           Value/CostAdv |        1.21e-12 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             235 |
+|            Metrics/Done |            0.87 |
+|             Train/Epoch |             808 |
+|        Train/TotalSteps |        1.62e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |            0.02 |
+|                Train/LR |        5.76e-05 |
+| Loss/Loss_reward_critic |          0.0265 |
+|   Loss/Loss_cost_critic |        1.39e-10 |
+|         Loss/Loss_actor |        -0.00722 |
+|            Time/Rollout |             106 |
+|             Time/Update |            7.42 |
+|              Time/Total |             113 |
+|         Value/RewardAdv |       -9.54e-10 |
+|           Value/CostAdv |        2.22e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             253 |
+|            Metrics/Done |           0.898 |
+|             Train/Epoch |             809 |
+|        Train/TotalSteps |        1.62e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0221 |
+|                Train/LR |        5.73e-05 |
+| Loss/Loss_reward_critic |          0.0232 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |         -0.0127 |
+|            Time/Rollout |             119 |
+|             Time/Update |            14.6 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |        1.01e-08 |
+|           Value/CostAdv |       -1.73e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.75 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             810 |
+|        Train/TotalSteps |        1.62e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0201 |
+|                Train/LR |         5.7e-05 |
+| Loss/Loss_reward_critic |          0.0307 |
+|   Loss/Loss_cost_critic |        1.61e-10 |
+|         Loss/Loss_actor |         -0.0093 |
+|            Time/Rollout |             127 |
+|             Time/Update |            12.3 |
+|              Time/Total |             140 |
+|         Value/RewardAdv |       -8.58e-09 |
+|           Value/CostAdv |        1.76e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.909 |
+|             Train/Epoch |             811 |
+|        Train/TotalSteps |        1.62e+07 |
+|          Train/StopIter |               8 |
+|                Train/KL |          0.0226 |
+|                Train/LR |        5.67e-05 |
+| Loss/Loss_reward_critic |          0.0259 |
+|   Loss/Loss_cost_critic |        1.55e-10 |
+|         Loss/Loss_actor |         -0.0092 |
+|            Time/Rollout |             118 |
+|             Time/Update |            9.59 |
+|              Time/Total |             127 |
+|         Value/RewardAdv |        5.72e-10 |
+|           Value/CostAdv |       -2.04e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             235 |
+|            Metrics/Done |           0.889 |
+|             Train/Epoch |             812 |
+|        Train/TotalSteps |        1.62e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        5.64e-05 |
+| Loss/Loss_reward_critic |          0.0247 |
+|   Loss/Loss_cost_critic |        1.45e-10 |
+|         Loss/Loss_actor |        -0.00695 |
+|            Time/Rollout |             111 |
+|             Time/Update |            8.52 |
+|              Time/Total |             119 |
+|         Value/RewardAdv |        3.34e-09 |
+|           Value/CostAdv |       -2.28e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             251 |
+|            Metrics/Done |           0.882 |
+|             Train/Epoch |             813 |
+|        Train/TotalSteps |        1.63e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0205 |
+|                Train/LR |        5.61e-05 |
+| Loss/Loss_reward_critic |          0.0239 |
+|   Loss/Loss_cost_critic |         1.3e-10 |
+|         Loss/Loss_actor |         -0.0114 |
+|            Time/Rollout |             116 |
+|             Time/Update |            11.3 |
+|              Time/Total |             128 |
+|         Value/RewardAdv |       -6.44e-09 |
+|           Value/CostAdv |        1.04e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             231 |
+|            Metrics/Done |           0.894 |
+|             Train/Epoch |             814 |
+|        Train/TotalSteps |        1.63e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        5.58e-05 |
+| Loss/Loss_reward_critic |          0.0244 |
+|   Loss/Loss_cost_critic |        1.41e-10 |
+|         Loss/Loss_actor |         -0.0104 |
+|            Time/Rollout |             109 |
+|             Time/Update |            11.1 |
+|              Time/Total |             120 |
+|         Value/RewardAdv |        3.81e-10 |
+|           Value/CostAdv |        1.38e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.924 |
+|             Train/Epoch |             815 |
+|        Train/TotalSteps |        1.63e+07 |
+|          Train/StopIter |               3 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        5.55e-05 |
+| Loss/Loss_reward_critic |          0.0213 |
+|   Loss/Loss_cost_critic |        1.33e-10 |
+|         Loss/Loss_actor |         -0.0014 |
+|            Time/Rollout |             124 |
+|             Time/Update |            3.62 |
+|              Time/Total |             127 |
+|         Value/RewardAdv |        1.53e-09 |
+|           Value/CostAdv |       -1.68e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.901 |
+|             Train/Epoch |             816 |
+|        Train/TotalSteps |        1.63e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |            0.02 |
+|                Train/LR |        5.52e-05 |
+| Loss/Loss_reward_critic |          0.0207 |
+|   Loss/Loss_cost_critic |        1.32e-10 |
+|         Loss/Loss_actor |        -0.00673 |
+|            Time/Rollout |             122 |
+|             Time/Update |            7.43 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |        3.05e-09 |
+|           Value/CostAdv |         3.6e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             215 |
+|            Metrics/Done |           0.937 |
+|             Train/Epoch |             817 |
+|        Train/TotalSteps |        1.63e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0239 |
+|                Train/LR |        5.49e-05 |
+| Loss/Loss_reward_critic |          0.0226 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |        -0.00589 |
+|            Time/Rollout |             125 |
+|             Time/Update |            7.43 |
+|              Time/Total |             132 |
+|         Value/RewardAdv |        4.77e-11 |
+|           Value/CostAdv |       -3.45e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.912 |
+|             Train/Epoch |             818 |
+|        Train/TotalSteps |        1.64e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |           0.021 |
+|                Train/LR |        5.46e-05 |
+| Loss/Loss_reward_critic |          0.0245 |
+|   Loss/Loss_cost_critic |        1.37e-10 |
+|         Loss/Loss_actor |         -0.0125 |
+|            Time/Rollout |             124 |
+|             Time/Update |            13.6 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |       -3.62e-09 |
+|           Value/CostAdv |       -3.22e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             819 |
+|        Train/TotalSteps |        1.64e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0218 |
+|                Train/LR |        5.43e-05 |
+| Loss/Loss_reward_critic |          0.0192 |
+|   Loss/Loss_cost_critic |        1.25e-10 |
+|         Loss/Loss_actor |         -0.0118 |
+|            Time/Rollout |             115 |
+|             Time/Update |            12.6 |
+|              Time/Total |             128 |
+|         Value/RewardAdv |        6.58e-09 |
+|           Value/CostAdv |        4.63e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             233 |
+|            Metrics/Done |           0.919 |
+|             Train/Epoch |             820 |
+|        Train/TotalSteps |        1.64e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |           0.022 |
+|                Train/LR |         5.4e-05 |
+| Loss/Loss_reward_critic |           0.018 |
+|   Loss/Loss_cost_critic |        1.66e-10 |
+|         Loss/Loss_actor |         -0.0142 |
+|            Time/Rollout |             118 |
+|             Time/Update |            12.2 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |        1.36e-09 |
+|           Value/CostAdv |       -2.24e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             237 |
+|            Metrics/Done |           0.881 |
+|             Train/Epoch |             821 |
+|        Train/TotalSteps |        1.64e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0234 |
+|                Train/LR |        5.37e-05 |
+| Loss/Loss_reward_critic |          0.0249 |
+|   Loss/Loss_cost_critic |        1.33e-10 |
+|         Loss/Loss_actor |        -0.00758 |
+|            Time/Rollout |             112 |
+|             Time/Update |            8.44 |
+|              Time/Total |             120 |
+|         Value/RewardAdv |       -3.15e-09 |
+|           Value/CostAdv |        2.44e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             226 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             822 |
+|        Train/TotalSteps |        1.64e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        5.34e-05 |
+| Loss/Loss_reward_critic |          0.0204 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |        -0.00693 |
+|            Time/Rollout |             121 |
+|             Time/Update |            8.49 |
+|              Time/Total |             129 |
+|         Value/RewardAdv |       -2.19e-09 |
+|           Value/CostAdv |         3.2e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.924 |
+|             Train/Epoch |             823 |
+|        Train/TotalSteps |        1.65e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        5.31e-05 |
+| Loss/Loss_reward_critic |          0.0222 |
+|   Loss/Loss_cost_critic |        1.28e-10 |
+|         Loss/Loss_actor |        -0.00953 |
+|            Time/Rollout |             123 |
+|             Time/Update |            12.1 |
+|              Time/Total |             135 |
+|         Value/RewardAdv |        6.48e-09 |
+|           Value/CostAdv |        7.28e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.75 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             213 |
+|            Metrics/Done |           0.928 |
+|             Train/Epoch |             824 |
+|        Train/TotalSteps |        1.65e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0221 |
+|                Train/LR |        5.28e-05 |
+| Loss/Loss_reward_critic |          0.0259 |
+|   Loss/Loss_cost_critic |        1.46e-10 |
+|         Loss/Loss_actor |        -0.00603 |
+|            Time/Rollout |             126 |
+|             Time/Update |            7.26 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |       -6.44e-09 |
+|           Value/CostAdv |        -4.2e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             209 |
+|            Metrics/Done |           0.925 |
+|             Train/Epoch |             825 |
+|        Train/TotalSteps |        1.65e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        5.25e-05 |
+| Loss/Loss_reward_critic |          0.0182 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |         -0.0125 |
+|            Time/Rollout |             125 |
+|             Time/Update |            12.2 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |       -1.19e-09 |
+|           Value/CostAdv |           1e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             254 |
+|            Metrics/Done |           0.824 |
+|             Train/Epoch |             826 |
+|        Train/TotalSteps |        1.65e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0216 |
+|                Train/LR |        5.22e-05 |
+| Loss/Loss_reward_critic |          0.0212 |
+|   Loss/Loss_cost_critic |        1.57e-10 |
+|         Loss/Loss_actor |        -0.00828 |
+|            Time/Rollout |              89 |
+|             Time/Update |              11 |
+|              Time/Total |            99.9 |
+|         Value/RewardAdv |       -2.86e-09 |
+|           Value/CostAdv |        2.33e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             256 |
+|            Metrics/Done |           0.897 |
+|             Train/Epoch |             827 |
+|        Train/TotalSteps |        1.65e+07 |
+|          Train/StopIter |               5 |
+|                Train/KL |          0.0223 |
+|                Train/LR |        5.19e-05 |
+| Loss/Loss_reward_critic |          0.0196 |
+|   Loss/Loss_cost_critic |        1.55e-10 |
+|         Loss/Loss_actor |         -0.0045 |
+|            Time/Rollout |             116 |
+|             Time/Update |            6.04 |
+|              Time/Total |             122 |
+|         Value/RewardAdv |        2.96e-09 |
+|           Value/CostAdv |       -2.35e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.893 |
+|             Train/Epoch |             828 |
+|        Train/TotalSteps |        1.66e+07 |
+|          Train/StopIter |               3 |
+|                Train/KL |          0.0218 |
+|                Train/LR |        5.16e-05 |
+| Loss/Loss_reward_critic |          0.0201 |
+|   Loss/Loss_cost_critic |        2.25e-10 |
+|         Loss/Loss_actor |        -0.00157 |
+|            Time/Rollout |             113 |
+|             Time/Update |            3.61 |
+|              Time/Total |             116 |
+|         Value/RewardAdv |        9.06e-10 |
+|           Value/CostAdv |       -6.71e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             232 |
+|            Metrics/Done |           0.903 |
+|             Train/Epoch |             829 |
+|        Train/TotalSteps |        1.66e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0213 |
+|                Train/LR |        5.13e-05 |
+| Loss/Loss_reward_critic |          0.0148 |
+|   Loss/Loss_cost_critic |        1.86e-10 |
+|         Loss/Loss_actor |         -0.0056 |
+|            Time/Rollout |             126 |
+|             Time/Update |            7.53 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |        1.26e-08 |
+|           Value/CostAdv |       -1.62e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             205 |
+|            Metrics/Done |           0.939 |
+|             Train/Epoch |             830 |
+|        Train/TotalSteps |        1.66e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0211 |
+|                Train/LR |         5.1e-05 |
+| Loss/Loss_reward_critic |          0.0173 |
+|   Loss/Loss_cost_critic |         1.6e-10 |
+|         Loss/Loss_actor |        -0.00695 |
+|            Time/Rollout |             128 |
+|             Time/Update |            8.77 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |       -1.72e-09 |
+|           Value/CostAdv |        3.54e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             232 |
+|            Metrics/Done |           0.887 |
+|             Train/Epoch |             831 |
+|        Train/TotalSteps |        1.66e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0232 |
+|                Train/LR |        5.07e-05 |
+| Loss/Loss_reward_critic |           0.015 |
+|   Loss/Loss_cost_critic |         1.5e-10 |
+|         Loss/Loss_actor |         -0.0101 |
+|            Time/Rollout |             108 |
+|             Time/Update |            13.8 |
+|              Time/Total |             122 |
+|         Value/RewardAdv |        6.06e-09 |
+|           Value/CostAdv |        1.54e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             242 |
+|            Metrics/Done |           0.881 |
+|             Train/Epoch |             832 |
+|        Train/TotalSteps |        1.66e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0215 |
+|                Train/LR |        5.04e-05 |
+| Loss/Loss_reward_critic |          0.0155 |
+|   Loss/Loss_cost_critic |        1.32e-10 |
+|         Loss/Loss_actor |          -0.013 |
+|            Time/Rollout |             115 |
+|             Time/Update |            16.3 |
+|              Time/Total |             131 |
+|         Value/RewardAdv |       -4.43e-09 |
+|           Value/CostAdv |        7.89e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |           0.913 |
+|             Train/Epoch |             833 |
+|        Train/TotalSteps |        1.67e+07 |
+|          Train/StopIter |               3 |
+|                Train/KL |          0.0228 |
+|                Train/LR |        5.01e-05 |
+| Loss/Loss_reward_critic |          0.0234 |
+|   Loss/Loss_cost_critic |        1.63e-10 |
+|         Loss/Loss_actor |        -0.00234 |
+|            Time/Rollout |             122 |
+|             Time/Update |            3.75 |
+|              Time/Total |             125 |
+|         Value/RewardAdv |       -1.14e-09 |
+|           Value/CostAdv |        6.92e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             213 |
+|            Metrics/Done |           0.927 |
+|             Train/Epoch |             834 |
+|        Train/TotalSteps |        1.67e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        4.98e-05 |
+| Loss/Loss_reward_critic |           0.022 |
+|   Loss/Loss_cost_critic |        1.62e-10 |
+|         Loss/Loss_actor |        -0.00851 |
+|            Time/Rollout |             128 |
+|             Time/Update |            11.2 |
+|              Time/Total |             139 |
+|         Value/RewardAdv |       -5.44e-09 |
+|           Value/CostAdv |       -3.55e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             835 |
+|        Train/TotalSteps |        1.67e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        4.95e-05 |
+| Loss/Loss_reward_critic |          0.0245 |
+|   Loss/Loss_cost_critic |        1.32e-10 |
+|         Loss/Loss_actor |        -0.00513 |
+|            Time/Rollout |             113 |
+|             Time/Update |             7.3 |
+|              Time/Total |             120 |
+|         Value/RewardAdv |        7.44e-09 |
+|           Value/CostAdv |        3.79e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             233 |
+|            Metrics/Done |           0.882 |
+|             Train/Epoch |             836 |
+|        Train/TotalSteps |        1.67e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0213 |
+|                Train/LR |        4.92e-05 |
+| Loss/Loss_reward_critic |           0.024 |
+|   Loss/Loss_cost_critic |        1.49e-10 |
+|         Loss/Loss_actor |        -0.00868 |
+|            Time/Rollout |             115 |
+|             Time/Update |            8.39 |
+|              Time/Total |             123 |
+|         Value/RewardAdv |               0 |
+|           Value/CostAdv |        4.38e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             246 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             837 |
+|        Train/TotalSteps |        1.67e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0239 |
+|                Train/LR |        4.89e-05 |
+| Loss/Loss_reward_critic |          0.0184 |
+|   Loss/Loss_cost_critic |        1.49e-10 |
+|         Loss/Loss_actor |        -0.00974 |
+|            Time/Rollout |             112 |
+|             Time/Update |            11.1 |
+|              Time/Total |             123 |
+|         Value/RewardAdv |          -2e-09 |
+|           Value/CostAdv |       -9.87e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.928 |
+|             Train/Epoch |             838 |
+|        Train/TotalSteps |        1.68e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0215 |
+|                Train/LR |        4.86e-05 |
+| Loss/Loss_reward_critic |          0.0233 |
+|   Loss/Loss_cost_critic |        1.31e-10 |
+|         Loss/Loss_actor |        -0.00509 |
+|            Time/Rollout |             128 |
+|             Time/Update |            7.41 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |               0 |
+|           Value/CostAdv |         3.1e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             215 |
+|            Metrics/Done |           0.924 |
+|             Train/Epoch |             839 |
+|        Train/TotalSteps |        1.68e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0204 |
+|                Train/LR |        4.83e-05 |
+| Loss/Loss_reward_critic |          0.0218 |
+|   Loss/Loss_cost_critic |        1.62e-10 |
+|         Loss/Loss_actor |         -0.0106 |
+|            Time/Rollout |             125 |
+|             Time/Update |            12.4 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |       -1.14e-09 |
+|           Value/CostAdv |        2.56e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             210 |
+|            Metrics/Done |           0.928 |
+|             Train/Epoch |             840 |
+|        Train/TotalSteps |        1.68e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0229 |
+|                Train/LR |         4.8e-05 |
+| Loss/Loss_reward_critic |          0.0164 |
+|   Loss/Loss_cost_critic |        1.42e-10 |
+|         Loss/Loss_actor |        -0.00999 |
+|            Time/Rollout |             131 |
+|             Time/Update |            11.2 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |       -3.81e-09 |
+|           Value/CostAdv |       -3.94e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             215 |
+|            Metrics/Done |           0.894 |
+|             Train/Epoch |             841 |
+|        Train/TotalSteps |        1.68e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        4.77e-05 |
+| Loss/Loss_reward_critic |          0.0163 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |        -0.00912 |
+|            Time/Rollout |             114 |
+|             Time/Update |            12.6 |
+|              Time/Total |             126 |
+|         Value/RewardAdv |       -6.29e-09 |
+|           Value/CostAdv |        2.15e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |            0.94 |
+|             Train/Epoch |             842 |
+|        Train/TotalSteps |        1.68e+07 |
+|          Train/StopIter |               8 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        4.74e-05 |
+| Loss/Loss_reward_critic |          0.0195 |
+|   Loss/Loss_cost_critic |        2.25e-10 |
+|         Loss/Loss_actor |        -0.00851 |
+|            Time/Rollout |             132 |
+|             Time/Update |            9.71 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |       -4.77e-11 |
+|           Value/CostAdv |       -1.46e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             201 |
+|            Metrics/Done |            0.94 |
+|             Train/Epoch |             843 |
+|        Train/TotalSteps |        1.69e+07 |
+|          Train/StopIter |               4 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        4.71e-05 |
+| Loss/Loss_reward_critic |          0.0215 |
+|   Loss/Loss_cost_critic |        1.34e-10 |
+|         Loss/Loss_actor |        -0.00481 |
+|            Time/Rollout |             135 |
+|             Time/Update |            4.84 |
+|              Time/Total |             139 |
+|         Value/RewardAdv |        3.34e-09 |
+|           Value/CostAdv |       -1.12e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             210 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             844 |
+|        Train/TotalSteps |        1.69e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        4.68e-05 |
+| Loss/Loss_reward_critic |          0.0156 |
+|   Loss/Loss_cost_critic |        1.38e-10 |
+|         Loss/Loss_actor |        -0.00611 |
+|            Time/Rollout |             119 |
+|             Time/Update |            11.1 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |       -6.68e-09 |
+|           Value/CostAdv |        9.62e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |           0.909 |
+|             Train/Epoch |             845 |
+|        Train/TotalSteps |        1.69e+07 |
+|          Train/StopIter |              16 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        4.65e-05 |
+| Loss/Loss_reward_critic |           0.014 |
+|   Loss/Loss_cost_critic |        1.71e-10 |
+|         Loss/Loss_actor |         -0.0117 |
+|            Time/Rollout |             119 |
+|             Time/Update |            19.4 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |        -8.3e-09 |
+|           Value/CostAdv |          -1e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             231 |
+|            Metrics/Done |           0.899 |
+|             Train/Epoch |             846 |
+|        Train/TotalSteps |        1.69e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        4.62e-05 |
+| Loss/Loss_reward_critic |          0.0183 |
+|   Loss/Loss_cost_critic |         1.6e-10 |
+|         Loss/Loss_actor |        -0.00703 |
+|            Time/Rollout |             121 |
+|             Time/Update |            16.9 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |       -4.29e-10 |
+|           Value/CostAdv |        2.64e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.923 |
+|             Train/Epoch |             847 |
+|        Train/TotalSteps |        1.69e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        4.59e-05 |
+| Loss/Loss_reward_critic |          0.0137 |
+|   Loss/Loss_cost_critic |         1.6e-10 |
+|         Loss/Loss_actor |         -0.0118 |
+|            Time/Rollout |             124 |
+|             Time/Update |            16.8 |
+|              Time/Total |             140 |
+|         Value/RewardAdv |       -3.72e-09 |
+|           Value/CostAdv |       -2.67e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.902 |
+|             Train/Epoch |             848 |
+|        Train/TotalSteps |         1.7e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0219 |
+|                Train/LR |        4.56e-05 |
+| Loss/Loss_reward_critic |          0.0131 |
+|   Loss/Loss_cost_critic |        1.53e-10 |
+|         Loss/Loss_actor |         -0.0101 |
+|            Time/Rollout |             124 |
+|             Time/Update |            14.9 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |        1.43e-09 |
+|           Value/CostAdv |        7.09e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |            0.91 |
+|             Train/Epoch |             849 |
+|        Train/TotalSteps |         1.7e+07 |
+|          Train/StopIter |               6 |
+|                Train/KL |          0.0215 |
+|                Train/LR |        4.53e-05 |
+| Loss/Loss_reward_critic |          0.0236 |
+|   Loss/Loss_cost_critic |        1.72e-10 |
+|         Loss/Loss_actor |        -0.00644 |
+|            Time/Rollout |             117 |
+|             Time/Update |             7.4 |
+|              Time/Total |             125 |
+|         Value/RewardAdv |       -7.63e-10 |
+|           Value/CostAdv |        1.86e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             211 |
+|            Metrics/Done |           0.941 |
+|             Train/Epoch |             850 |
+|        Train/TotalSteps |         1.7e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |           0.022 |
+|                Train/LR |         4.5e-05 |
+| Loss/Loss_reward_critic |          0.0143 |
+|   Loss/Loss_cost_critic |         1.5e-10 |
+|         Loss/Loss_actor |        -0.00693 |
+|            Time/Rollout |             134 |
+|             Time/Update |            8.67 |
+|              Time/Total |             143 |
+|         Value/RewardAdv |       -5.82e-09 |
+|           Value/CostAdv |        4.16e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             218 |
+|            Metrics/Done |           0.912 |
+|             Train/Epoch |             851 |
+|        Train/TotalSteps |         1.7e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0204 |
+|                Train/LR |        4.47e-05 |
+| Loss/Loss_reward_critic |           0.012 |
+|   Loss/Loss_cost_critic |        1.53e-10 |
+|         Loss/Loss_actor |        -0.00628 |
+|            Time/Rollout |             124 |
+|             Time/Update |            13.4 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |        -8.3e-09 |
+|           Value/CostAdv |        7.42e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             205 |
+|            Metrics/Done |           0.939 |
+|             Train/Epoch |             852 |
+|        Train/TotalSteps |         1.7e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        4.44e-05 |
+| Loss/Loss_reward_critic |          0.0128 |
+|   Loss/Loss_cost_critic |        1.47e-10 |
+|         Loss/Loss_actor |         -0.0128 |
+|            Time/Rollout |             129 |
+|             Time/Update |            14.4 |
+|              Time/Total |             144 |
+|         Value/RewardAdv |        4.86e-09 |
+|           Value/CostAdv |       -5.24e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             209 |
+|            Metrics/Done |            0.92 |
+|             Train/Epoch |             853 |
+|        Train/TotalSteps |        1.71e+07 |
+|          Train/StopIter |               5 |
+|                Train/KL |          0.0242 |
+|                Train/LR |        4.41e-05 |
+| Loss/Loss_reward_critic |          0.0171 |
+|   Loss/Loss_cost_critic |         1.7e-10 |
+|         Loss/Loss_actor |        -0.00641 |
+|            Time/Rollout |             119 |
+|             Time/Update |            6.02 |
+|              Time/Total |             125 |
+|         Value/RewardAdv |        1.37e-08 |
+|           Value/CostAdv |       -2.02e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             234 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             854 |
+|        Train/TotalSteps |        1.71e+07 |
+|          Train/StopIter |              16 |
+|                Train/KL |          0.0247 |
+|                Train/LR |        4.38e-05 |
+| Loss/Loss_reward_critic |          0.0118 |
+|   Loss/Loss_cost_critic |        1.46e-10 |
+|         Loss/Loss_actor |         -0.0111 |
+|            Time/Rollout |             116 |
+|             Time/Update |            19.3 |
+|              Time/Total |             135 |
+|         Value/RewardAdv |        3.15e-09 |
+|           Value/CostAdv |        1.15e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.918 |
+|             Train/Epoch |             855 |
+|        Train/TotalSteps |        1.71e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0264 |
+|                Train/LR |        4.35e-05 |
+| Loss/Loss_reward_critic |          0.0124 |
+|   Loss/Loss_cost_critic |        1.51e-10 |
+|         Loss/Loss_actor |         -0.0123 |
+|            Time/Rollout |             128 |
+|             Time/Update |            13.3 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |       -4.77e-09 |
+|           Value/CostAdv |         3.5e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.908 |
+|             Train/Epoch |             856 |
+|        Train/TotalSteps |        1.71e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0204 |
+|                Train/LR |        4.32e-05 |
+| Loss/Loss_reward_critic |          0.0153 |
+|   Loss/Loss_cost_critic |        1.59e-10 |
+|         Loss/Loss_actor |         -0.0128 |
+|            Time/Rollout |             117 |
+|             Time/Update |            13.1 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |       -2.53e-09 |
+|           Value/CostAdv |       -7.09e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             235 |
+|            Metrics/Done |           0.878 |
+|             Train/Epoch |             857 |
+|        Train/TotalSteps |        1.71e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        4.29e-05 |
+| Loss/Loss_reward_critic |          0.0173 |
+|   Loss/Loss_cost_critic |        1.91e-10 |
+|         Loss/Loss_actor |         -0.0105 |
+|            Time/Rollout |             112 |
+|             Time/Update |            15.8 |
+|              Time/Total |             128 |
+|         Value/RewardAdv |       -2.43e-09 |
+|           Value/CostAdv |       -7.42e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             242 |
+|            Metrics/Done |           0.897 |
+|             Train/Epoch |             858 |
+|        Train/TotalSteps |        1.72e+07 |
+|          Train/StopIter |               3 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        4.26e-05 |
+| Loss/Loss_reward_critic |          0.0198 |
+|   Loss/Loss_cost_critic |        1.84e-10 |
+|         Loss/Loss_actor |        0.000931 |
+|            Time/Rollout |             117 |
+|             Time/Update |            3.64 |
+|              Time/Total |             121 |
+|         Value/RewardAdv |        1.21e-08 |
+|           Value/CostAdv |        2.24e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             212 |
+|            Metrics/Done |           0.923 |
+|             Train/Epoch |             859 |
+|        Train/TotalSteps |        1.72e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0243 |
+|                Train/LR |        4.23e-05 |
+| Loss/Loss_reward_critic |          0.0198 |
+|   Loss/Loss_cost_critic |        1.52e-10 |
+|         Loss/Loss_actor |         -0.0138 |
+|            Time/Rollout |             122 |
+|             Time/Update |              17 |
+|              Time/Total |             139 |
+|         Value/RewardAdv |       -3.24e-09 |
+|           Value/CostAdv |       -3.15e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             234 |
+|            Metrics/Done |           0.889 |
+|             Train/Epoch |             860 |
+|        Train/TotalSteps |        1.72e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0212 |
+|                Train/LR |         4.2e-05 |
+| Loss/Loss_reward_critic |          0.0142 |
+|   Loss/Loss_cost_critic |        1.31e-10 |
+|         Loss/Loss_actor |         -0.0126 |
+|            Time/Rollout |             120 |
+|             Time/Update |            14.6 |
+|              Time/Total |             134 |
+|         Value/RewardAdv |       -4.01e-09 |
+|           Value/CostAdv |       -1.06e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             215 |
+|            Metrics/Done |           0.924 |
+|             Train/Epoch |             861 |
+|        Train/TotalSteps |        1.72e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        4.17e-05 |
+| Loss/Loss_reward_critic |          0.0196 |
+|   Loss/Loss_cost_critic |        1.86e-10 |
+|         Loss/Loss_actor |         -0.0107 |
+|            Time/Rollout |             125 |
+|             Time/Update |            12.1 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |       -4.77e-10 |
+|           Value/CostAdv |       -4.54e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             223 |
+|            Metrics/Done |           0.914 |
+|             Train/Epoch |             862 |
+|        Train/TotalSteps |        1.72e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0244 |
+|                Train/LR |        4.14e-05 |
+| Loss/Loss_reward_critic |          0.0135 |
+|   Loss/Loss_cost_critic |        1.72e-10 |
+|         Loss/Loss_actor |        -0.00827 |
+|            Time/Rollout |             126 |
+|             Time/Update |            14.6 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |       -3.36e-09 |
+|           Value/CostAdv |        3.25e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             863 |
+|        Train/TotalSteps |        1.73e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        4.11e-05 |
+| Loss/Loss_reward_critic |          0.0136 |
+|   Loss/Loss_cost_critic |        1.48e-10 |
+|         Loss/Loss_actor |         -0.0107 |
+|            Time/Rollout |             118 |
+|             Time/Update |            12.1 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |       -1.24e-09 |
+|           Value/CostAdv |       -4.92e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |            0.93 |
+|             Train/Epoch |             864 |
+|        Train/TotalSteps |        1.73e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        4.08e-05 |
+| Loss/Loss_reward_critic |          0.0129 |
+|   Loss/Loss_cost_critic |        1.57e-10 |
+|         Loss/Loss_actor |         -0.0101 |
+|            Time/Rollout |             134 |
+|             Time/Update |            12.1 |
+|              Time/Total |             146 |
+|         Value/RewardAdv |        3.81e-09 |
+|           Value/CostAdv |       -3.06e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             201 |
+|            Metrics/Done |           0.937 |
+|             Train/Epoch |             865 |
+|        Train/TotalSteps |        1.73e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        4.05e-05 |
+| Loss/Loss_reward_critic |          0.0148 |
+|   Loss/Loss_cost_critic |        1.52e-10 |
+|         Loss/Loss_actor |         -0.0131 |
+|            Time/Rollout |             128 |
+|             Time/Update |            15.9 |
+|              Time/Total |             144 |
+|         Value/RewardAdv |        1.14e-09 |
+|           Value/CostAdv |       -7.87e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             211 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             866 |
+|        Train/TotalSteps |        1.73e+07 |
+|          Train/StopIter |               8 |
+|                Train/KL |          0.0223 |
+|                Train/LR |        4.02e-05 |
+| Loss/Loss_reward_critic |          0.0203 |
+|   Loss/Loss_cost_critic |        1.74e-10 |
+|         Loss/Loss_actor |        -0.00811 |
+|            Time/Rollout |             127 |
+|             Time/Update |            9.74 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |        3.53e-09 |
+|           Value/CostAdv |       -3.64e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.915 |
+|             Train/Epoch |             867 |
+|        Train/TotalSteps |        1.73e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        3.99e-05 |
+| Loss/Loss_reward_critic |          0.0169 |
+|   Loss/Loss_cost_critic |        2.16e-10 |
+|         Loss/Loss_actor |        -0.00965 |
+|            Time/Rollout |             127 |
+|             Time/Update |            14.7 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |        8.12e-09 |
+|           Value/CostAdv |       -8.97e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.86 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.877 |
+|             Train/Epoch |             868 |
+|        Train/TotalSteps |        1.74e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0205 |
+|                Train/LR |        3.96e-05 |
+| Loss/Loss_reward_critic |          0.0146 |
+|   Loss/Loss_cost_critic |        1.54e-10 |
+|         Loss/Loss_actor |         -0.0102 |
+|            Time/Rollout |             111 |
+|             Time/Update |              11 |
+|              Time/Total |             122 |
+|         Value/RewardAdv |        1.68e-08 |
+|           Value/CostAdv |        1.01e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             238 |
+|            Metrics/Done |           0.913 |
+|             Train/Epoch |             869 |
+|        Train/TotalSteps |        1.74e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        3.93e-05 |
+| Loss/Loss_reward_critic |           0.023 |
+|   Loss/Loss_cost_critic |        1.65e-10 |
+|         Loss/Loss_actor |         -0.0121 |
+|            Time/Rollout |             122 |
+|             Time/Update |            14.6 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |       -4.77e-10 |
+|           Value/CostAdv |         3.2e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             218 |
+|            Metrics/Done |           0.922 |
+|             Train/Epoch |             870 |
+|        Train/TotalSteps |        1.74e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0202 |
+|                Train/LR |         3.9e-05 |
+| Loss/Loss_reward_critic |          0.0195 |
+|   Loss/Loss_cost_critic |        1.91e-10 |
+|         Loss/Loss_actor |         -0.0128 |
+|            Time/Rollout |             121 |
+|             Time/Update |            14.6 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |       -5.67e-09 |
+|           Value/CostAdv |       -2.75e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.886 |
+|             Train/Epoch |             871 |
+|        Train/TotalSteps |        1.74e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0204 |
+|                Train/LR |        3.87e-05 |
+| Loss/Loss_reward_critic |          0.0158 |
+|   Loss/Loss_cost_critic |        1.44e-10 |
+|         Loss/Loss_actor |         -0.0116 |
+|            Time/Rollout |             109 |
+|             Time/Update |            15.7 |
+|              Time/Total |             125 |
+|         Value/RewardAdv |       -2.28e-08 |
+|           Value/CostAdv |        7.37e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             239 |
+|            Metrics/Done |           0.891 |
+|             Train/Epoch |             872 |
+|        Train/TotalSteps |        1.74e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        3.84e-05 |
+| Loss/Loss_reward_critic |          0.0151 |
+|   Loss/Loss_cost_critic |        3.91e-10 |
+|         Loss/Loss_actor |        -0.00837 |
+|            Time/Rollout |             122 |
+|             Time/Update |             8.4 |
+|              Time/Total |             131 |
+|         Value/RewardAdv |       -3.53e-09 |
+|           Value/CostAdv |        7.49e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             214 |
+|            Metrics/Done |           0.923 |
+|             Train/Epoch |             873 |
+|        Train/TotalSteps |        1.75e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0224 |
+|                Train/LR |        3.81e-05 |
+| Loss/Loss_reward_critic |          0.0175 |
+|   Loss/Loss_cost_critic |        2.01e-10 |
+|         Loss/Loss_actor |         -0.0133 |
+|            Time/Rollout |             123 |
+|             Time/Update |            14.6 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |        1.65e-09 |
+|           Value/CostAdv |       -3.59e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             212 |
+|            Metrics/Done |            0.93 |
+|             Train/Epoch |             874 |
+|        Train/TotalSteps |        1.75e+07 |
+|          Train/StopIter |               5 |
+|                Train/KL |          0.0219 |
+|                Train/LR |        3.78e-05 |
+| Loss/Loss_reward_critic |          0.0156 |
+|   Loss/Loss_cost_critic |        3.07e-10 |
+|         Loss/Loss_actor |        -0.00763 |
+|            Time/Rollout |             131 |
+|             Time/Update |            6.07 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |        -9.3e-10 |
+|           Value/CostAdv |        1.64e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             218 |
+|            Metrics/Done |           0.912 |
+|             Train/Epoch |             875 |
+|        Train/TotalSteps |        1.75e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        3.75e-05 |
+| Loss/Loss_reward_critic |          0.0214 |
+|   Loss/Loss_cost_critic |        1.29e-10 |
+|         Loss/Loss_actor |          -0.014 |
+|            Time/Rollout |             122 |
+|             Time/Update |            14.8 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |        3.77e-09 |
+|           Value/CostAdv |        2.62e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             223 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             876 |
+|        Train/TotalSteps |        1.75e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0222 |
+|                Train/LR |        3.72e-05 |
+| Loss/Loss_reward_critic |          0.0194 |
+|   Loss/Loss_cost_critic |        2.36e-10 |
+|         Loss/Loss_actor |        -0.00767 |
+|            Time/Rollout |             117 |
+|             Time/Update |             8.5 |
+|              Time/Total |             126 |
+|         Value/RewardAdv |       -3.15e-09 |
+|           Value/CostAdv |       -1.31e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             232 |
+|            Metrics/Done |           0.885 |
+|             Train/Epoch |             877 |
+|        Train/TotalSteps |        1.75e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0238 |
+|                Train/LR |        3.69e-05 |
+| Loss/Loss_reward_critic |          0.0154 |
+|   Loss/Loss_cost_critic |        2.02e-10 |
+|         Loss/Loss_actor |         -0.0129 |
+|            Time/Rollout |             118 |
+|             Time/Update |            18.2 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |       -2.86e-10 |
+|           Value/CostAdv |        3.02e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             213 |
+|            Metrics/Done |           0.938 |
+|             Train/Epoch |             878 |
+|        Train/TotalSteps |        1.76e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        3.66e-05 |
+| Loss/Loss_reward_critic |          0.0175 |
+|   Loss/Loss_cost_critic |        1.52e-10 |
+|         Loss/Loss_actor |         -0.0141 |
+|            Time/Rollout |             127 |
+|             Time/Update |            14.5 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |        6.72e-09 |
+|           Value/CostAdv |       -6.19e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             214 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             879 |
+|        Train/TotalSteps |        1.76e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0243 |
+|                Train/LR |        3.63e-05 |
+| Loss/Loss_reward_critic |          0.0145 |
+|   Loss/Loss_cost_critic |        1.63e-10 |
+|         Loss/Loss_actor |         -0.0126 |
+|            Time/Rollout |             127 |
+|             Time/Update |            12.6 |
+|              Time/Total |             140 |
+|         Value/RewardAdv |        1.53e-09 |
+|           Value/CostAdv |       -1.72e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             208 |
+|            Metrics/Done |           0.927 |
+|             Train/Epoch |             880 |
+|        Train/TotalSteps |        1.76e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0216 |
+|                Train/LR |         3.6e-05 |
+| Loss/Loss_reward_critic |          0.0169 |
+|   Loss/Loss_cost_critic |        1.91e-10 |
+|         Loss/Loss_actor |         -0.0125 |
+|            Time/Rollout |             125 |
+|             Time/Update |            14.9 |
+|              Time/Total |             140 |
+|         Value/RewardAdv |        7.63e-10 |
+|           Value/CostAdv |       -5.38e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             200 |
+|            Metrics/Done |           0.939 |
+|             Train/Epoch |             881 |
+|        Train/TotalSteps |        1.76e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0215 |
+|                Train/LR |        3.57e-05 |
+| Loss/Loss_reward_critic |          0.0193 |
+|   Loss/Loss_cost_critic |        1.84e-10 |
+|         Loss/Loss_actor |         -0.0129 |
+|            Time/Rollout |             132 |
+|             Time/Update |            13.6 |
+|              Time/Total |             146 |
+|         Value/RewardAdv |        1.34e-09 |
+|           Value/CostAdv |       -1.81e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             208 |
+|            Metrics/Done |           0.928 |
+|             Train/Epoch |             882 |
+|        Train/TotalSteps |        1.76e+07 |
+|          Train/StopIter |              17 |
+|                Train/KL |          0.0214 |
+|                Train/LR |        3.54e-05 |
+| Loss/Loss_reward_critic |          0.0162 |
+|   Loss/Loss_cost_critic |        1.85e-10 |
+|         Loss/Loss_actor |         -0.0124 |
+|            Time/Rollout |             129 |
+|             Time/Update |              21 |
+|              Time/Total |             150 |
+|         Value/RewardAdv |       -8.25e-09 |
+|           Value/CostAdv |       -1.31e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.73 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             210 |
+|            Metrics/Done |            0.91 |
+|             Train/Epoch |             883 |
+|        Train/TotalSteps |        1.77e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        3.51e-05 |
+| Loss/Loss_reward_critic |          0.0229 |
+|   Loss/Loss_cost_critic |        2.17e-10 |
+|         Loss/Loss_actor |           -0.01 |
+|            Time/Rollout |             119 |
+|             Time/Update |            14.5 |
+|              Time/Total |             134 |
+|         Value/RewardAdv |        1.22e-08 |
+|           Value/CostAdv |       -7.75e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             884 |
+|        Train/TotalSteps |        1.77e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0257 |
+|                Train/LR |        3.48e-05 |
+| Loss/Loss_reward_critic |          0.0248 |
+|   Loss/Loss_cost_critic |         2.3e-10 |
+|         Loss/Loss_actor |         -0.0128 |
+|            Time/Rollout |             128 |
+|             Time/Update |            16.3 |
+|              Time/Total |             144 |
+|         Value/RewardAdv |       -5.53e-09 |
+|           Value/CostAdv |        1.19e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             218 |
+|            Metrics/Done |           0.914 |
+|             Train/Epoch |             885 |
+|        Train/TotalSteps |        1.77e+07 |
+|          Train/StopIter |               3 |
+|                Train/KL |          0.0218 |
+|                Train/LR |        3.45e-05 |
+| Loss/Loss_reward_critic |          0.0216 |
+|   Loss/Loss_cost_critic |        3.68e-10 |
+|         Loss/Loss_actor |        -0.00212 |
+|            Time/Rollout |             126 |
+|             Time/Update |            3.63 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |        2.67e-09 |
+|           Value/CostAdv |       -5.59e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             207 |
+|            Metrics/Done |           0.924 |
+|             Train/Epoch |             886 |
+|        Train/TotalSteps |        1.77e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0214 |
+|                Train/LR |        3.42e-05 |
+| Loss/Loss_reward_critic |          0.0152 |
+|   Loss/Loss_cost_critic |        1.77e-10 |
+|         Loss/Loss_actor |         -0.0143 |
+|            Time/Rollout |             124 |
+|             Time/Update |            16.9 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |       -5.34e-09 |
+|           Value/CostAdv |       -1.14e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.917 |
+|             Train/Epoch |             887 |
+|        Train/TotalSteps |        1.77e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0204 |
+|                Train/LR |        3.39e-05 |
+| Loss/Loss_reward_critic |          0.0147 |
+|   Loss/Loss_cost_critic |        1.99e-10 |
+|         Loss/Loss_actor |        -0.00936 |
+|            Time/Rollout |             128 |
+|             Time/Update |            13.7 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |        2.57e-09 |
+|           Value/CostAdv |       -5.84e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             207 |
+|            Metrics/Done |           0.936 |
+|             Train/Epoch |             888 |
+|        Train/TotalSteps |        1.78e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        3.36e-05 |
+| Loss/Loss_reward_critic |          0.0147 |
+|   Loss/Loss_cost_critic |        1.86e-10 |
+|         Loss/Loss_actor |          -0.011 |
+|            Time/Rollout |             122 |
+|             Time/Update |            13.2 |
+|              Time/Total |             135 |
+|         Value/RewardAdv |       -2.67e-09 |
+|           Value/CostAdv |        1.47e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             234 |
+|            Metrics/Done |           0.893 |
+|             Train/Epoch |             889 |
+|        Train/TotalSteps |        1.78e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |            0.02 |
+|                Train/LR |        3.33e-05 |
+| Loss/Loss_reward_critic |          0.0224 |
+|   Loss/Loss_cost_critic |        2.48e-10 |
+|         Loss/Loss_actor |        -0.00962 |
+|            Time/Rollout |             102 |
+|             Time/Update |            14.5 |
+|              Time/Total |             117 |
+|         Value/RewardAdv |       -1.23e-08 |
+|           Value/CostAdv |        1.31e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.904 |
+|             Train/Epoch |             890 |
+|        Train/TotalSteps |        1.78e+07 |
+|          Train/StopIter |               8 |
+|                Train/KL |          0.0208 |
+|                Train/LR |         3.3e-05 |
+| Loss/Loss_reward_critic |          0.0185 |
+|   Loss/Loss_cost_critic |        1.83e-10 |
+|         Loss/Loss_actor |         -0.0101 |
+|            Time/Rollout |             113 |
+|             Time/Update |            9.73 |
+|              Time/Total |             123 |
+|         Value/RewardAdv |       -9.25e-09 |
+|           Value/CostAdv |       -1.62e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             250 |
+|            Metrics/Done |           0.875 |
+|             Train/Epoch |             891 |
+|        Train/TotalSteps |        1.78e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0225 |
+|                Train/LR |        3.27e-05 |
+| Loss/Loss_reward_critic |          0.0194 |
+|   Loss/Loss_cost_critic |        2.27e-10 |
+|         Loss/Loss_actor |         -0.0107 |
+|            Time/Rollout |             109 |
+|             Time/Update |            14.5 |
+|              Time/Total |             124 |
+|         Value/RewardAdv |       -4.29e-10 |
+|           Value/CostAdv |       -3.29e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             207 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             892 |
+|        Train/TotalSteps |        1.78e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0222 |
+|                Train/LR |        3.24e-05 |
+| Loss/Loss_reward_critic |          0.0248 |
+|   Loss/Loss_cost_critic |        1.78e-10 |
+|         Loss/Loss_actor |         -0.0135 |
+|            Time/Rollout |             124 |
+|             Time/Update |              12 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |        8.15e-09 |
+|           Value/CostAdv |       -2.01e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             241 |
+|            Metrics/Done |           0.887 |
+|             Train/Epoch |             893 |
+|        Train/TotalSteps |        1.79e+07 |
+|          Train/StopIter |              18 |
+|                Train/KL |          0.0225 |
+|                Train/LR |        3.21e-05 |
+| Loss/Loss_reward_critic |          0.0215 |
+|   Loss/Loss_cost_critic |        1.69e-10 |
+|         Loss/Loss_actor |         -0.0158 |
+|            Time/Rollout |             110 |
+|             Time/Update |            21.6 |
+|              Time/Total |             131 |
+|         Value/RewardAdv |        3.34e-09 |
+|           Value/CostAdv |        8.15e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             238 |
+|            Metrics/Done |           0.886 |
+|             Train/Epoch |             894 |
+|        Train/TotalSteps |        1.79e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |           0.022 |
+|                Train/LR |        3.18e-05 |
+| Loss/Loss_reward_critic |          0.0169 |
+|   Loss/Loss_cost_critic |        2.11e-10 |
+|         Loss/Loss_actor |         -0.0107 |
+|            Time/Rollout |             118 |
+|             Time/Update |            11.2 |
+|              Time/Total |             129 |
+|         Value/RewardAdv |       -3.05e-09 |
+|           Value/CostAdv |       -1.01e-17 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |             0.9 |
+|             Train/Epoch |             895 |
+|        Train/TotalSteps |        1.79e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0232 |
+|                Train/LR |        3.15e-05 |
+| Loss/Loss_reward_critic |          0.0167 |
+|   Loss/Loss_cost_critic |        1.89e-10 |
+|         Loss/Loss_actor |         -0.0148 |
+|            Time/Rollout |             109 |
+|             Time/Update |            18.8 |
+|              Time/Total |             128 |
+|         Value/RewardAdv |        8.68e-09 |
+|           Value/CostAdv |        3.22e-17 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.75 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             241 |
+|            Metrics/Done |           0.898 |
+|             Train/Epoch |             896 |
+|        Train/TotalSteps |        1.79e+07 |
+|          Train/StopIter |              17 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        3.12e-05 |
+| Loss/Loss_reward_critic |          0.0142 |
+|   Loss/Loss_cost_critic |        2.07e-10 |
+|         Loss/Loss_actor |         -0.0161 |
+|            Time/Rollout |             117 |
+|             Time/Update |            21.5 |
+|              Time/Total |             139 |
+|         Value/RewardAdv |       -5.48e-09 |
+|           Value/CostAdv |       -6.42e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |           0.918 |
+|             Train/Epoch |             897 |
+|        Train/TotalSteps |        1.79e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        3.09e-05 |
+| Loss/Loss_reward_critic |          0.0194 |
+|   Loss/Loss_cost_critic |           2e-10 |
+|         Loss/Loss_actor |         -0.0166 |
+|            Time/Rollout |             117 |
+|             Time/Update |            16.3 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |        9.54e-11 |
+|           Value/CostAdv |        1.45e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.72 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             210 |
+|            Metrics/Done |           0.914 |
+|             Train/Epoch |             898 |
+|        Train/TotalSteps |         1.8e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0212 |
+|                Train/LR |        3.06e-05 |
+| Loss/Loss_reward_critic |          0.0246 |
+|   Loss/Loss_cost_critic |        2.25e-10 |
+|         Loss/Loss_actor |        -0.00942 |
+|            Time/Rollout |             124 |
+|             Time/Update |            12.5 |
+|              Time/Total |             136 |
+|         Value/RewardAdv |         3.1e-09 |
+|           Value/CostAdv |        -1.9e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             899 |
+|        Train/TotalSteps |         1.8e+07 |
+|          Train/StopIter |              17 |
+|                Train/KL |          0.0215 |
+|                Train/LR |        3.03e-05 |
+| Loss/Loss_reward_critic |          0.0212 |
+|   Loss/Loss_cost_critic |        2.37e-10 |
+|         Loss/Loss_actor |         -0.0169 |
+|            Time/Rollout |             127 |
+|             Time/Update |            20.5 |
+|              Time/Total |             148 |
+|         Value/RewardAdv |       -2.38e-09 |
+|           Value/CostAdv |       -5.34e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             900 |
+|        Train/TotalSteps |         1.8e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0218 |
+|                Train/LR |           3e-05 |
+| Loss/Loss_reward_critic |           0.025 |
+|   Loss/Loss_cost_critic |        2.08e-10 |
+|         Loss/Loss_actor |         -0.0143 |
+|            Time/Rollout |             116 |
+|             Time/Update |            14.5 |
+|              Time/Total |             130 |
+|         Value/RewardAdv |        7.15e-09 |
+|           Value/CostAdv |       -4.98e-14 |
+---------------------------------------------
+[32mSave model to disk...[0m
+[32mDone.[0m
+[32mSave model to disk...[0m
+[32mDone.[0m
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.925 |
+|             Train/Epoch |             901 |
+|        Train/TotalSteps |         1.8e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        2.97e-05 |
+| Loss/Loss_reward_critic |          0.0174 |
+|   Loss/Loss_cost_critic |        2.02e-10 |
+|         Loss/Loss_actor |         -0.0156 |
+|            Time/Rollout |             125 |
+|             Time/Update |            18.2 |
+|              Time/Total |             143 |
+|         Value/RewardAdv |       -2.81e-09 |
+|           Value/CostAdv |        2.05e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.877 |
+|             Train/Epoch |             902 |
+|        Train/TotalSteps |         1.8e+07 |
+|          Train/StopIter |              22 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        2.94e-05 |
+| Loss/Loss_reward_critic |          0.0207 |
+|   Loss/Loss_cost_critic |        2.27e-10 |
+|         Loss/Loss_actor |         -0.0138 |
+|            Time/Rollout |            97.8 |
+|             Time/Update |            26.7 |
+|              Time/Total |             124 |
+|         Value/RewardAdv |        9.54e-10 |
+|           Value/CostAdv |       -7.82e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             234 |
+|            Metrics/Done |           0.915 |
+|             Train/Epoch |             903 |
+|        Train/TotalSteps |        1.81e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0229 |
+|                Train/LR |        2.91e-05 |
+| Loss/Loss_reward_critic |          0.0153 |
+|   Loss/Loss_cost_critic |        2.31e-10 |
+|         Loss/Loss_actor |         -0.0142 |
+|            Time/Rollout |             124 |
+|             Time/Update |            18.3 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |       -7.53e-09 |
+|           Value/CostAdv |       -1.96e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             210 |
+|            Metrics/Done |           0.914 |
+|             Train/Epoch |             904 |
+|        Train/TotalSteps |        1.81e+07 |
+|          Train/StopIter |               9 |
+|                Train/KL |          0.0217 |
+|                Train/LR |        2.88e-05 |
+| Loss/Loss_reward_critic |          0.0208 |
+|   Loss/Loss_cost_critic |        3.56e-10 |
+|         Loss/Loss_actor |         -0.0122 |
+|            Time/Rollout |             122 |
+|             Time/Update |              11 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |       -2.77e-09 |
+|           Value/CostAdv |        6.03e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             905 |
+|        Train/TotalSteps |        1.81e+07 |
+|          Train/StopIter |              17 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        2.85e-05 |
+| Loss/Loss_reward_critic |          0.0218 |
+|   Loss/Loss_cost_critic |        1.87e-10 |
+|         Loss/Loss_actor |         -0.0158 |
+|            Time/Rollout |             112 |
+|             Time/Update |            21.1 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |       -3.72e-09 |
+|           Value/CostAdv |        -2.2e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             229 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             906 |
+|        Train/TotalSteps |        1.81e+07 |
+|          Train/StopIter |               7 |
+|                Train/KL |          0.0213 |
+|                Train/LR |        2.82e-05 |
+| Loss/Loss_reward_critic |          0.0281 |
+|   Loss/Loss_cost_critic |        3.55e-10 |
+|         Loss/Loss_actor |        -0.00842 |
+|            Time/Rollout |             118 |
+|             Time/Update |            8.76 |
+|              Time/Total |             127 |
+|         Value/RewardAdv |        1.62e-09 |
+|           Value/CostAdv |        1.69e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |            0.91 |
+|             Train/Epoch |             907 |
+|        Train/TotalSteps |        1.81e+07 |
+|          Train/StopIter |              17 |
+|                Train/KL |          0.0221 |
+|                Train/LR |        2.79e-05 |
+| Loss/Loss_reward_critic |          0.0167 |
+|   Loss/Loss_cost_critic |        1.81e-10 |
+|         Loss/Loss_actor |         -0.0157 |
+|            Time/Rollout |             120 |
+|             Time/Update |            21.3 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |        -6.1e-09 |
+|           Value/CostAdv |       -1.35e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             236 |
+|            Metrics/Done |           0.909 |
+|             Train/Epoch |             908 |
+|        Train/TotalSteps |        1.82e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0231 |
+|                Train/LR |        2.76e-05 |
+| Loss/Loss_reward_critic |          0.0198 |
+|   Loss/Loss_cost_critic |        2.15e-10 |
+|         Loss/Loss_actor |         -0.0134 |
+|            Time/Rollout |             119 |
+|             Time/Update |            12.1 |
+|              Time/Total |             131 |
+|         Value/RewardAdv |       -8.39e-09 |
+|           Value/CostAdv |       -9.96e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             207 |
+|            Metrics/Done |           0.923 |
+|             Train/Epoch |             909 |
+|        Train/TotalSteps |        1.82e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0212 |
+|                Train/LR |        2.73e-05 |
+| Loss/Loss_reward_critic |          0.0156 |
+|   Loss/Loss_cost_critic |        2.36e-10 |
+|         Loss/Loss_actor |         -0.0145 |
+|            Time/Rollout |             118 |
+|             Time/Update |            18.8 |
+|              Time/Total |             137 |
+|         Value/RewardAdv |       -3.15e-09 |
+|           Value/CostAdv |       -6.85e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             910 |
+|        Train/TotalSteps |        1.82e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0205 |
+|                Train/LR |         2.7e-05 |
+| Loss/Loss_reward_critic |          0.0191 |
+|   Loss/Loss_cost_critic |        2.12e-10 |
+|         Loss/Loss_actor |         -0.0147 |
+|            Time/Rollout |             116 |
+|             Time/Update |            16.8 |
+|              Time/Total |             132 |
+|         Value/RewardAdv |       -2.86e-10 |
+|           Value/CostAdv |       -2.49e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.897 |
+|             Train/Epoch |             911 |
+|        Train/TotalSteps |        1.82e+07 |
+|          Train/StopIter |              12 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        2.67e-05 |
+| Loss/Loss_reward_critic |          0.0161 |
+|   Loss/Loss_cost_critic |        2.86e-10 |
+|         Loss/Loss_actor |         -0.0136 |
+|            Time/Rollout |             117 |
+|             Time/Update |            14.6 |
+|              Time/Total |             131 |
+|         Value/RewardAdv |        8.01e-09 |
+|           Value/CostAdv |        1.31e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             226 |
+|            Metrics/Done |           0.908 |
+|             Train/Epoch |             912 |
+|        Train/TotalSteps |        1.82e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        2.64e-05 |
+| Loss/Loss_reward_critic |          0.0195 |
+|   Loss/Loss_cost_critic |        2.14e-10 |
+|         Loss/Loss_actor |         -0.0155 |
+|            Time/Rollout |             115 |
+|             Time/Update |            16.8 |
+|              Time/Total |             132 |
+|         Value/RewardAdv |        7.49e-09 |
+|           Value/CostAdv |        4.85e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             231 |
+|            Metrics/Done |           0.897 |
+|             Train/Epoch |             913 |
+|        Train/TotalSteps |        1.83e+07 |
+|          Train/StopIter |              16 |
+|                Train/KL |          0.0227 |
+|                Train/LR |        2.61e-05 |
+| Loss/Loss_reward_critic |          0.0186 |
+|   Loss/Loss_cost_critic |        2.78e-10 |
+|         Loss/Loss_actor |         -0.0144 |
+|            Time/Rollout |             115 |
+|             Time/Update |            19.2 |
+|              Time/Total |             135 |
+|         Value/RewardAdv |       -4.96e-09 |
+|           Value/CostAdv |       -1.77e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             226 |
+|            Metrics/Done |           0.917 |
+|             Train/Epoch |             914 |
+|        Train/TotalSteps |        1.83e+07 |
+|          Train/StopIter |              16 |
+|                Train/KL |          0.0223 |
+|                Train/LR |        2.58e-05 |
+| Loss/Loss_reward_critic |           0.022 |
+|   Loss/Loss_cost_critic |        3.08e-10 |
+|         Loss/Loss_actor |         -0.0144 |
+|            Time/Rollout |             128 |
+|             Time/Update |            19.2 |
+|              Time/Total |             147 |
+|         Value/RewardAdv |        3.53e-09 |
+|           Value/CostAdv |       -7.73e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             209 |
+|            Metrics/Done |           0.923 |
+|             Train/Epoch |             915 |
+|        Train/TotalSteps |        1.83e+07 |
+|          Train/StopIter |              18 |
+|                Train/KL |          0.0228 |
+|                Train/LR |        2.55e-05 |
+| Loss/Loss_reward_critic |           0.021 |
+|   Loss/Loss_cost_critic |        2.34e-10 |
+|         Loss/Loss_actor |         -0.0167 |
+|            Time/Rollout |             123 |
+|             Time/Update |            21.6 |
+|              Time/Total |             145 |
+|         Value/RewardAdv |        -4.1e-09 |
+|           Value/CostAdv |        2.76e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |           0.894 |
+|             Train/Epoch |             916 |
+|        Train/TotalSteps |        1.83e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        2.52e-05 |
+| Loss/Loss_reward_critic |          0.0179 |
+|   Loss/Loss_cost_critic |        2.43e-10 |
+|         Loss/Loss_actor |         -0.0149 |
+|            Time/Rollout |             115 |
+|             Time/Update |              18 |
+|              Time/Total |             133 |
+|         Value/RewardAdv |          -1e-08 |
+|           Value/CostAdv |       -1.27e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             249 |
+|            Metrics/Done |           0.867 |
+|             Train/Epoch |             917 |
+|        Train/TotalSteps |        1.83e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        2.49e-05 |
+| Loss/Loss_reward_critic |          0.0216 |
+|   Loss/Loss_cost_critic |        2.59e-10 |
+|         Loss/Loss_actor |         -0.0144 |
+|            Time/Rollout |             109 |
+|             Time/Update |              17 |
+|              Time/Total |             126 |
+|         Value/RewardAdv |       -7.15e-09 |
+|           Value/CostAdv |         5.7e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.68 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             244 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             918 |
+|        Train/TotalSteps |        1.84e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0237 |
+|                Train/LR |        2.46e-05 |
+| Loss/Loss_reward_critic |          0.0214 |
+|   Loss/Loss_cost_critic |        2.25e-10 |
+|         Loss/Loss_actor |          -0.013 |
+|            Time/Rollout |             114 |
+|             Time/Update |            15.6 |
+|              Time/Total |             129 |
+|         Value/RewardAdv |        3.91e-09 |
+|           Value/CostAdv |       -3.95e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             221 |
+|            Metrics/Done |           0.929 |
+|             Train/Epoch |             919 |
+|        Train/TotalSteps |        1.84e+07 |
+|          Train/StopIter |              19 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        2.43e-05 |
+| Loss/Loss_reward_critic |          0.0215 |
+|   Loss/Loss_cost_critic |        2.16e-10 |
+|         Loss/Loss_actor |         -0.0187 |
+|            Time/Rollout |             128 |
+|             Time/Update |            23.6 |
+|              Time/Total |             152 |
+|         Value/RewardAdv |        3.81e-09 |
+|           Value/CostAdv |       -3.97e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.912 |
+|             Train/Epoch |             920 |
+|        Train/TotalSteps |        1.84e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0204 |
+|                Train/LR |         2.4e-05 |
+| Loss/Loss_reward_critic |          0.0201 |
+|   Loss/Loss_cost_critic |        2.43e-10 |
+|         Loss/Loss_actor |         -0.0148 |
+|            Time/Rollout |             122 |
+|             Time/Update |            18.7 |
+|              Time/Total |             140 |
+|         Value/RewardAdv |       -3.29e-09 |
+|           Value/CostAdv |        7.23e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             232 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             921 |
+|        Train/TotalSteps |        1.84e+07 |
+|          Train/StopIter |              23 |
+|                Train/KL |          0.0237 |
+|                Train/LR |        2.37e-05 |
+| Loss/Loss_reward_critic |          0.0209 |
+|   Loss/Loss_cost_critic |        2.37e-10 |
+|         Loss/Loss_actor |         -0.0175 |
+|            Time/Rollout |             114 |
+|             Time/Update |              28 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |        5.25e-09 |
+|           Value/CostAdv |        4.92e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             232 |
+|            Metrics/Done |           0.881 |
+|             Train/Epoch |             922 |
+|        Train/TotalSteps |        1.84e+07 |
+|          Train/StopIter |              15 |
+|                Train/KL |          0.0237 |
+|                Train/LR |        2.34e-05 |
+| Loss/Loss_reward_critic |          0.0173 |
+|   Loss/Loss_cost_critic |         2.8e-10 |
+|         Loss/Loss_actor |         -0.0145 |
+|            Time/Rollout |             114 |
+|             Time/Update |            18.3 |
+|              Time/Total |             132 |
+|         Value/RewardAdv |        -2.1e-09 |
+|           Value/CostAdv |        1.34e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.923 |
+|             Train/Epoch |             923 |
+|        Train/TotalSteps |        1.85e+07 |
+|          Train/StopIter |              13 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        2.31e-05 |
+| Loss/Loss_reward_critic |          0.0197 |
+|   Loss/Loss_cost_critic |        3.02e-10 |
+|         Loss/Loss_actor |         -0.0146 |
+|            Time/Rollout |             119 |
+|             Time/Update |            15.7 |
+|              Time/Total |             135 |
+|         Value/RewardAdv |          -2e-09 |
+|           Value/CostAdv |       -8.33e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             213 |
+|            Metrics/Done |           0.915 |
+|             Train/Epoch |             924 |
+|        Train/TotalSteps |        1.85e+07 |
+|          Train/StopIter |              18 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        2.28e-05 |
+| Loss/Loss_reward_critic |          0.0155 |
+|   Loss/Loss_cost_critic |        2.86e-10 |
+|         Loss/Loss_actor |         -0.0147 |
+|            Time/Rollout |             125 |
+|             Time/Update |            22.6 |
+|              Time/Total |             147 |
+|         Value/RewardAdv |       -1.38e-09 |
+|           Value/CostAdv |       -3.52e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             221 |
+|            Metrics/Done |            0.91 |
+|             Train/Epoch |             925 |
+|        Train/TotalSteps |        1.85e+07 |
+|          Train/StopIter |              21 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        2.25e-05 |
+| Loss/Loss_reward_critic |          0.0136 |
+|   Loss/Loss_cost_critic |        2.77e-10 |
+|         Loss/Loss_actor |         -0.0143 |
+|            Time/Rollout |             119 |
+|             Time/Update |            26.4 |
+|              Time/Total |             146 |
+|         Value/RewardAdv |       -5.48e-09 |
+|           Value/CostAdv |       -1.35e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.899 |
+|             Train/Epoch |             926 |
+|        Train/TotalSteps |        1.85e+07 |
+|          Train/StopIter |              10 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        2.22e-05 |
+| Loss/Loss_reward_critic |          0.0158 |
+|   Loss/Loss_cost_critic |        5.19e-10 |
+|         Loss/Loss_actor |         -0.0126 |
+|            Time/Rollout |             119 |
+|             Time/Update |            12.1 |
+|              Time/Total |             131 |
+|         Value/RewardAdv |       -5.63e-09 |
+|           Value/CostAdv |       -1.79e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             242 |
+|            Metrics/Done |           0.904 |
+|             Train/Epoch |             927 |
+|        Train/TotalSteps |        1.85e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0207 |
+|                Train/LR |        2.19e-05 |
+| Loss/Loss_reward_critic |           0.021 |
+|   Loss/Loss_cost_critic |        5.84e-10 |
+|         Loss/Loss_actor |         -0.0134 |
+|            Time/Rollout |             104 |
+|             Time/Update |            16.9 |
+|              Time/Total |             121 |
+|         Value/RewardAdv |         4.1e-09 |
+|           Value/CostAdv |       -2.86e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             244 |
+|            Metrics/Done |            0.88 |
+|             Train/Epoch |             928 |
+|        Train/TotalSteps |        1.86e+07 |
+|          Train/StopIter |              19 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        2.16e-05 |
+| Loss/Loss_reward_critic |          0.0141 |
+|   Loss/Loss_cost_critic |        3.53e-10 |
+|         Loss/Loss_actor |         -0.0143 |
+|            Time/Rollout |             114 |
+|             Time/Update |            23.7 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |        5.91e-09 |
+|           Value/CostAdv |        4.77e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             242 |
+|            Metrics/Done |           0.868 |
+|             Train/Epoch |             929 |
+|        Train/TotalSteps |        1.86e+07 |
+|          Train/StopIter |              18 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        2.13e-05 |
+| Loss/Loss_reward_critic |          0.0183 |
+|   Loss/Loss_cost_critic |        2.99e-10 |
+|         Loss/Loss_actor |         -0.0165 |
+|            Time/Rollout |             105 |
+|             Time/Update |            22.4 |
+|              Time/Total |             127 |
+|         Value/RewardAdv |       -2.26e-09 |
+|           Value/CostAdv |       -3.09e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |            0.92 |
+|             Train/Epoch |             930 |
+|        Train/TotalSteps |        1.86e+07 |
+|          Train/StopIter |              11 |
+|                Train/KL |          0.0206 |
+|                Train/LR |         2.1e-05 |
+| Loss/Loss_reward_critic |          0.0215 |
+|   Loss/Loss_cost_critic |         3.9e-10 |
+|         Loss/Loss_actor |         -0.0126 |
+|            Time/Rollout |             133 |
+|             Time/Update |            13.7 |
+|              Time/Total |             147 |
+|         Value/RewardAdv |       -3.58e-09 |
+|           Value/CostAdv |        1.26e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.73 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             210 |
+|            Metrics/Done |            0.92 |
+|             Train/Epoch |             931 |
+|        Train/TotalSteps |        1.86e+07 |
+|          Train/StopIter |              21 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        2.07e-05 |
+| Loss/Loss_reward_critic |          0.0197 |
+|   Loss/Loss_cost_critic |        4.44e-10 |
+|         Loss/Loss_actor |         -0.0152 |
+|            Time/Rollout |             115 |
+|             Time/Update |            25.6 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |        7.92e-09 |
+|           Value/CostAdv |         4.6e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.902 |
+|             Train/Epoch |             932 |
+|        Train/TotalSteps |        1.86e+07 |
+|          Train/StopIter |              29 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        2.04e-05 |
+| Loss/Loss_reward_critic |          0.0149 |
+|   Loss/Loss_cost_critic |        3.51e-10 |
+|         Loss/Loss_actor |          -0.019 |
+|            Time/Rollout |             123 |
+|             Time/Update |            35.3 |
+|              Time/Total |             159 |
+|         Value/RewardAdv |       -1.24e-09 |
+|           Value/CostAdv |        1.65e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |           0.893 |
+|             Train/Epoch |             933 |
+|        Train/TotalSteps |        1.87e+07 |
+|          Train/StopIter |              16 |
+|                Train/KL |          0.0218 |
+|                Train/LR |        2.01e-05 |
+| Loss/Loss_reward_critic |          0.0176 |
+|   Loss/Loss_cost_critic |        3.84e-10 |
+|         Loss/Loss_actor |         -0.0143 |
+|            Time/Rollout |             113 |
+|             Time/Update |            19.5 |
+|              Time/Total |             132 |
+|         Value/RewardAdv |       -3.53e-09 |
+|           Value/CostAdv |       -1.41e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.65 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             934 |
+|        Train/TotalSteps |        1.87e+07 |
+|          Train/StopIter |              21 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        1.98e-05 |
+| Loss/Loss_reward_critic |          0.0235 |
+|   Loss/Loss_cost_critic |        3.74e-10 |
+|         Loss/Loss_actor |         -0.0135 |
+|            Time/Rollout |             121 |
+|             Time/Update |            25.6 |
+|              Time/Total |             146 |
+|         Value/RewardAdv |        1.72e-09 |
+|           Value/CostAdv |        5.59e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.75 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             246 |
+|            Metrics/Done |           0.872 |
+|             Train/Epoch |             935 |
+|        Train/TotalSteps |        1.87e+07 |
+|          Train/StopIter |              17 |
+|                Train/KL |           0.023 |
+|                Train/LR |        1.95e-05 |
+| Loss/Loss_reward_critic |          0.0207 |
+|   Loss/Loss_cost_critic |        2.88e-10 |
+|         Loss/Loss_actor |         -0.0165 |
+|            Time/Rollout |             108 |
+|             Time/Update |            20.7 |
+|              Time/Total |             128 |
+|         Value/RewardAdv |       -3.81e-10 |
+|           Value/CostAdv |       -4.67e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.914 |
+|             Train/Epoch |             936 |
+|        Train/TotalSteps |        1.87e+07 |
+|          Train/StopIter |              20 |
+|                Train/KL |          0.0207 |
+|                Train/LR |        1.92e-05 |
+| Loss/Loss_reward_critic |          0.0263 |
+|   Loss/Loss_cost_critic |        3.26e-10 |
+|         Loss/Loss_actor |         -0.0186 |
+|            Time/Rollout |             121 |
+|             Time/Update |            24.2 |
+|              Time/Total |             146 |
+|         Value/RewardAdv |       -2.96e-09 |
+|           Value/CostAdv |        -5.9e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             231 |
+|            Metrics/Done |           0.899 |
+|             Train/Epoch |             937 |
+|        Train/TotalSteps |        1.87e+07 |
+|          Train/StopIter |              19 |
+|                Train/KL |          0.0229 |
+|                Train/LR |        1.89e-05 |
+| Loss/Loss_reward_critic |          0.0264 |
+|   Loss/Loss_cost_critic |        4.16e-10 |
+|         Loss/Loss_actor |         -0.0163 |
+|            Time/Rollout |             118 |
+|             Time/Update |            23.6 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |        -2.1e-09 |
+|           Value/CostAdv |       -1.12e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.77 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |           0.898 |
+|             Train/Epoch |             938 |
+|        Train/TotalSteps |        1.88e+07 |
+|          Train/StopIter |              14 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        1.86e-05 |
+| Loss/Loss_reward_critic |          0.0273 |
+|   Loss/Loss_cost_critic |         4.6e-10 |
+|         Loss/Loss_actor |         -0.0131 |
+|            Time/Rollout |             121 |
+|             Time/Update |            17.1 |
+|              Time/Total |             138 |
+|         Value/RewardAdv |           2e-09 |
+|           Value/CostAdv |        2.07e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.918 |
+|             Train/Epoch |             939 |
+|        Train/TotalSteps |        1.88e+07 |
+|          Train/StopIter |              22 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        1.83e-05 |
+| Loss/Loss_reward_critic |          0.0214 |
+|   Loss/Loss_cost_critic |        3.44e-10 |
+|         Loss/Loss_actor |         -0.0176 |
+|            Time/Rollout |             116 |
+|             Time/Update |            26.8 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |        4.05e-09 |
+|           Value/CostAdv |        9.42e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             226 |
+|            Metrics/Done |           0.905 |
+|             Train/Epoch |             940 |
+|        Train/TotalSteps |        1.88e+07 |
+|          Train/StopIter |              19 |
+|                Train/KL |          0.0209 |
+|                Train/LR |         1.8e-05 |
+| Loss/Loss_reward_critic |          0.0177 |
+|   Loss/Loss_cost_critic |        3.16e-10 |
+|         Loss/Loss_actor |         -0.0181 |
+|            Time/Rollout |             125 |
+|             Time/Update |            22.9 |
+|              Time/Total |             148 |
+|         Value/RewardAdv |       -2.86e-09 |
+|           Value/CostAdv |       -4.35e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             205 |
+|            Metrics/Done |            0.94 |
+|             Train/Epoch |             941 |
+|        Train/TotalSteps |        1.88e+07 |
+|          Train/StopIter |              19 |
+|                Train/KL |          0.0211 |
+|                Train/LR |        1.77e-05 |
+| Loss/Loss_reward_critic |           0.014 |
+|   Loss/Loss_cost_critic |        3.42e-10 |
+|         Loss/Loss_actor |         -0.0177 |
+|            Time/Rollout |             134 |
+|             Time/Update |            23.1 |
+|              Time/Total |             158 |
+|         Value/RewardAdv |        3.91e-09 |
+|           Value/CostAdv |       -5.09e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             211 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             942 |
+|        Train/TotalSteps |        1.88e+07 |
+|          Train/StopIter |              25 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        1.74e-05 |
+| Loss/Loss_reward_critic |          0.0161 |
+|   Loss/Loss_cost_critic |         2.8e-10 |
+|         Loss/Loss_actor |         -0.0179 |
+|            Time/Rollout |             118 |
+|             Time/Update |            30.5 |
+|              Time/Total |             148 |
+|         Value/RewardAdv |       -4.77e-09 |
+|           Value/CostAdv |       -1.32e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             943 |
+|        Train/TotalSteps |        1.89e+07 |
+|          Train/StopIter |              28 |
+|                Train/KL |          0.0214 |
+|                Train/LR |        1.71e-05 |
+| Loss/Loss_reward_critic |          0.0137 |
+|   Loss/Loss_cost_critic |        3.68e-10 |
+|         Loss/Loss_actor |         -0.0196 |
+|            Time/Rollout |             117 |
+|             Time/Update |            33.6 |
+|              Time/Total |             150 |
+|         Value/RewardAdv |        1.29e-09 |
+|           Value/CostAdv |        7.57e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             228 |
+|            Metrics/Done |           0.913 |
+|             Train/Epoch |             944 |
+|        Train/TotalSteps |        1.89e+07 |
+|          Train/StopIter |              27 |
+|                Train/KL |          0.0216 |
+|                Train/LR |        1.68e-05 |
+| Loss/Loss_reward_critic |           0.016 |
+|   Loss/Loss_cost_critic |        3.97e-10 |
+|         Loss/Loss_actor |         -0.0173 |
+|            Time/Rollout |             125 |
+|             Time/Update |            32.5 |
+|              Time/Total |             157 |
+|         Value/RewardAdv |       -7.18e-09 |
+|           Value/CostAdv |           3e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             227 |
+|            Metrics/Done |           0.907 |
+|             Train/Epoch |             945 |
+|        Train/TotalSteps |        1.89e+07 |
+|          Train/StopIter |              23 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        1.65e-05 |
+| Loss/Loss_reward_critic |          0.0159 |
+|   Loss/Loss_cost_critic |        4.02e-10 |
+|         Loss/Loss_actor |         -0.0201 |
+|            Time/Rollout |             118 |
+|             Time/Update |              28 |
+|              Time/Total |             146 |
+|         Value/RewardAdv |        8.11e-09 |
+|           Value/CostAdv |        1.77e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             234 |
+|            Metrics/Done |           0.888 |
+|             Train/Epoch |             946 |
+|        Train/TotalSteps |        1.89e+07 |
+|          Train/StopIter |              25 |
+|                Train/KL |          0.0232 |
+|                Train/LR |        1.62e-05 |
+| Loss/Loss_reward_critic |          0.0189 |
+|   Loss/Loss_cost_critic |        5.21e-10 |
+|         Loss/Loss_actor |         -0.0165 |
+|            Time/Rollout |             121 |
+|             Time/Update |            30.1 |
+|              Time/Total |             151 |
+|         Value/RewardAdv |       -7.08e-09 |
+|           Value/CostAdv |       -2.12e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             226 |
+|            Metrics/Done |           0.906 |
+|             Train/Epoch |             947 |
+|        Train/TotalSteps |        1.89e+07 |
+|          Train/StopIter |              26 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        1.59e-05 |
+| Loss/Loss_reward_critic |          0.0152 |
+|   Loss/Loss_cost_critic |        3.84e-10 |
+|         Loss/Loss_actor |         -0.0182 |
+|            Time/Rollout |             116 |
+|             Time/Update |            31.8 |
+|              Time/Total |             148 |
+|         Value/RewardAdv |       -6.01e-09 |
+|           Value/CostAdv |       -6.43e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             225 |
+|            Metrics/Done |           0.902 |
+|             Train/Epoch |             948 |
+|        Train/TotalSteps |         1.9e+07 |
+|          Train/StopIter |              21 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        1.56e-05 |
+| Loss/Loss_reward_critic |           0.024 |
+|   Loss/Loss_cost_critic |        4.64e-10 |
+|         Loss/Loss_actor |         -0.0159 |
+|            Time/Rollout |             123 |
+|             Time/Update |            25.2 |
+|              Time/Total |             148 |
+|         Value/RewardAdv |        -4.2e-09 |
+|           Value/CostAdv |         5.4e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.7 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |            0.89 |
+|             Train/Epoch |             949 |
+|        Train/TotalSteps |         1.9e+07 |
+|          Train/StopIter |              24 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        1.53e-05 |
+| Loss/Loss_reward_critic |          0.0211 |
+|   Loss/Loss_cost_critic |        4.97e-10 |
+|         Loss/Loss_actor |         -0.0169 |
+|            Time/Rollout |             112 |
+|             Time/Update |            29.3 |
+|              Time/Total |             141 |
+|         Value/RewardAdv |       -3.39e-09 |
+|           Value/CostAdv |        3.21e-16 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             242 |
+|            Metrics/Done |             0.9 |
+|             Train/Epoch |             950 |
+|        Train/TotalSteps |         1.9e+07 |
+|          Train/StopIter |              21 |
+|                Train/KL |            0.02 |
+|                Train/LR |         1.5e-05 |
+| Loss/Loss_reward_critic |          0.0237 |
+|   Loss/Loss_cost_critic |        5.43e-10 |
+|         Loss/Loss_actor |         -0.0191 |
+|            Time/Rollout |             121 |
+|             Time/Update |            25.4 |
+|              Time/Total |             147 |
+|         Value/RewardAdv |       -6.96e-09 |
+|           Value/CostAdv |       -5.18e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             213 |
+|            Metrics/Done |           0.929 |
+|             Train/Epoch |             951 |
+|        Train/TotalSteps |         1.9e+07 |
+|          Train/StopIter |              28 |
+|                Train/KL |          0.0204 |
+|                Train/LR |        1.47e-05 |
+| Loss/Loss_reward_critic |          0.0214 |
+|   Loss/Loss_cost_critic |         4.6e-10 |
+|         Loss/Loss_actor |         -0.0178 |
+|            Time/Rollout |             129 |
+|             Time/Update |            33.8 |
+|              Time/Total |             163 |
+|         Value/RewardAdv |        2.62e-09 |
+|           Value/CostAdv |         1.7e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.86 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             205 |
+|            Metrics/Done |            0.92 |
+|             Train/Epoch |             952 |
+|        Train/TotalSteps |         1.9e+07 |
+|          Train/StopIter |              20 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        1.44e-05 |
+| Loss/Loss_reward_critic |          0.0163 |
+|   Loss/Loss_cost_critic |        4.99e-10 |
+|         Loss/Loss_actor |         -0.0159 |
+|            Time/Rollout |             118 |
+|             Time/Update |            24.9 |
+|              Time/Total |             142 |
+|         Value/RewardAdv |       -2.29e-09 |
+|           Value/CostAdv |        2.86e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.7 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             250 |
+|            Metrics/Done |           0.861 |
+|             Train/Epoch |             953 |
+|        Train/TotalSteps |        1.91e+07 |
+|          Train/StopIter |              29 |
+|                Train/KL |          0.0207 |
+|                Train/LR |        1.41e-05 |
+| Loss/Loss_reward_critic |          0.0277 |
+|   Loss/Loss_cost_critic |        4.76e-10 |
+|         Loss/Loss_actor |         -0.0195 |
+|            Time/Rollout |             107 |
+|             Time/Update |              36 |
+|              Time/Total |             143 |
+|         Value/RewardAdv |        2.48e-09 |
+|           Value/CostAdv |        1.77e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.72 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             254 |
+|            Metrics/Done |           0.889 |
+|             Train/Epoch |             954 |
+|        Train/TotalSteps |        1.91e+07 |
+|          Train/StopIter |              35 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        1.38e-05 |
+| Loss/Loss_reward_critic |          0.0179 |
+|   Loss/Loss_cost_critic |        4.62e-10 |
+|         Loss/Loss_actor |         -0.0195 |
+|            Time/Rollout |             112 |
+|             Time/Update |            42.7 |
+|              Time/Total |             154 |
+|         Value/RewardAdv |        6.68e-10 |
+|           Value/CostAdv |       -5.43e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.73 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             222 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             955 |
+|        Train/TotalSteps |        1.91e+07 |
+|          Train/StopIter |              30 |
+|                Train/KL |          0.0214 |
+|                Train/LR |        1.35e-05 |
+| Loss/Loss_reward_critic |          0.0201 |
+|   Loss/Loss_cost_critic |        7.48e-10 |
+|         Loss/Loss_actor |         -0.0148 |
+|            Time/Rollout |             120 |
+|             Time/Update |            37.2 |
+|              Time/Total |             158 |
+|         Value/RewardAdv |       -2.77e-09 |
+|           Value/CostAdv |       -7.81e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             241 |
+|            Metrics/Done |           0.871 |
+|             Train/Epoch |             956 |
+|        Train/TotalSteps |        1.91e+07 |
+|          Train/StopIter |              34 |
+|                Train/KL |          0.0209 |
+|                Train/LR |        1.32e-05 |
+| Loss/Loss_reward_critic |          0.0153 |
+|   Loss/Loss_cost_critic |        5.79e-10 |
+|         Loss/Loss_actor |         -0.0164 |
+|            Time/Rollout |             114 |
+|             Time/Update |            41.2 |
+|              Time/Total |             155 |
+|         Value/RewardAdv |       -1.48e-08 |
+|           Value/CostAdv |       -1.82e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             221 |
+|            Metrics/Done |           0.925 |
+|             Train/Epoch |             957 |
+|        Train/TotalSteps |        1.91e+07 |
+|          Train/StopIter |              31 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        1.29e-05 |
+| Loss/Loss_reward_critic |          0.0153 |
+|   Loss/Loss_cost_critic |        5.11e-10 |
+|         Loss/Loss_actor |         -0.0194 |
+|            Time/Rollout |             124 |
+|             Time/Update |            37.6 |
+|              Time/Total |             162 |
+|         Value/RewardAdv |       -8.58e-10 |
+|           Value/CostAdv |       -2.55e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             958 |
+|        Train/TotalSteps |        1.92e+07 |
+|          Train/StopIter |              18 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        1.26e-05 |
+| Loss/Loss_reward_critic |          0.0187 |
+|   Loss/Loss_cost_critic |        6.87e-10 |
+|         Loss/Loss_actor |         -0.0152 |
+|            Time/Rollout |             123 |
+|             Time/Update |            21.8 |
+|              Time/Total |             144 |
+|         Value/RewardAdv |         2.1e-09 |
+|           Value/CostAdv |        6.91e-17 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |           0.925 |
+|             Train/Epoch |             959 |
+|        Train/TotalSteps |        1.92e+07 |
+|          Train/StopIter |              28 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        1.23e-05 |
+| Loss/Loss_reward_critic |          0.0144 |
+|   Loss/Loss_cost_critic |        6.06e-10 |
+|         Loss/Loss_actor |         -0.0201 |
+|            Time/Rollout |             123 |
+|             Time/Update |              34 |
+|              Time/Total |             157 |
+|         Value/RewardAdv |       -6.01e-09 |
+|           Value/CostAdv |       -1.22e-12 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |             0.9 |
+|             Train/Epoch |             960 |
+|        Train/TotalSteps |        1.92e+07 |
+|          Train/StopIter |              33 |
+|                Train/KL |          0.0218 |
+|                Train/LR |         1.2e-05 |
+| Loss/Loss_reward_critic |           0.014 |
+|   Loss/Loss_cost_critic |        4.74e-10 |
+|         Loss/Loss_actor |         -0.0204 |
+|            Time/Rollout |             119 |
+|             Time/Update |            39.5 |
+|              Time/Total |             158 |
+|         Value/RewardAdv |        5.72e-10 |
+|           Value/CostAdv |       -4.16e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             227 |
+|            Metrics/Done |           0.875 |
+|             Train/Epoch |             961 |
+|        Train/TotalSteps |        1.92e+07 |
+|          Train/StopIter |              36 |
+|                Train/KL |          0.0227 |
+|                Train/LR |        1.17e-05 |
+| Loss/Loss_reward_critic |          0.0174 |
+|   Loss/Loss_cost_critic |        4.97e-10 |
+|         Loss/Loss_actor |         -0.0209 |
+|            Time/Rollout |             110 |
+|             Time/Update |            43.2 |
+|              Time/Total |             153 |
+|         Value/RewardAdv |       -6.48e-09 |
+|           Value/CostAdv |        4.76e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             236 |
+|            Metrics/Done |           0.897 |
+|             Train/Epoch |             962 |
+|        Train/TotalSteps |        1.92e+07 |
+|          Train/StopIter |              30 |
+|                Train/KL |          0.0201 |
+|                Train/LR |        1.14e-05 |
+| Loss/Loss_reward_critic |          0.0165 |
+|   Loss/Loss_cost_critic |        6.71e-10 |
+|         Loss/Loss_actor |         -0.0184 |
+|            Time/Rollout |             112 |
+|             Time/Update |            36.3 |
+|              Time/Total |             148 |
+|         Value/RewardAdv |        1.22e-08 |
+|           Value/CostAdv |        -3.6e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.7 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             241 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             963 |
+|        Train/TotalSteps |        1.93e+07 |
+|          Train/StopIter |              32 |
+|                Train/KL |          0.0202 |
+|                Train/LR |        1.11e-05 |
+| Loss/Loss_reward_critic |          0.0191 |
+|   Loss/Loss_cost_critic |        6.26e-10 |
+|         Loss/Loss_actor |         -0.0213 |
+|            Time/Rollout |             111 |
+|             Time/Update |            40.3 |
+|              Time/Total |             151 |
+|         Value/RewardAdv |       -2.91e-09 |
+|           Value/CostAdv |       -4.27e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             234 |
+|            Metrics/Done |             0.9 |
+|             Train/Epoch |             964 |
+|        Train/TotalSteps |        1.93e+07 |
+|          Train/StopIter |              29 |
+|                Train/KL |          0.0203 |
+|                Train/LR |        1.08e-05 |
+| Loss/Loss_reward_critic |          0.0196 |
+|   Loss/Loss_cost_critic |        4.48e-10 |
+|         Loss/Loss_actor |         -0.0215 |
+|            Time/Rollout |             119 |
+|             Time/Update |            36.6 |
+|              Time/Total |             155 |
+|         Value/RewardAdv |        1.91e-09 |
+|           Value/CostAdv |       -3.09e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             965 |
+|        Train/TotalSteps |        1.93e+07 |
+|          Train/StopIter |              39 |
+|                Train/KL |          0.0206 |
+|                Train/LR |        1.05e-05 |
+| Loss/Loss_reward_critic |          0.0152 |
+|   Loss/Loss_cost_critic |        6.82e-10 |
+|         Loss/Loss_actor |         -0.0222 |
+|            Time/Rollout |             121 |
+|             Time/Update |            49.1 |
+|              Time/Total |             170 |
+|         Value/RewardAdv |       -3.62e-09 |
+|           Value/CostAdv |         5.2e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             218 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             966 |
+|        Train/TotalSteps |        1.93e+07 |
+|          Train/StopIter |              47 |
+|                Train/KL |          0.0208 |
+|                Train/LR |        1.02e-05 |
+| Loss/Loss_reward_critic |          0.0209 |
+|   Loss/Loss_cost_critic |        8.16e-10 |
+|         Loss/Loss_actor |         -0.0197 |
+|            Time/Rollout |             121 |
+|             Time/Update |            57.1 |
+|              Time/Total |             178 |
+|         Value/RewardAdv |       -4.05e-09 |
+|           Value/CostAdv |       -2.63e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             218 |
+|            Metrics/Done |           0.916 |
+|             Train/Epoch |             967 |
+|        Train/TotalSteps |        1.93e+07 |
+|          Train/StopIter |              37 |
+|                Train/KL |          0.0207 |
+|                Train/LR |         9.9e-06 |
+| Loss/Loss_reward_critic |           0.015 |
+|   Loss/Loss_cost_critic |        6.74e-10 |
+|         Loss/Loss_actor |         -0.0212 |
+|            Time/Rollout |             127 |
+|             Time/Update |            44.9 |
+|              Time/Total |             172 |
+|         Value/RewardAdv |        1.91e-09 |
+|           Value/CostAdv |       -4.35e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.86 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             220 |
+|            Metrics/Done |           0.918 |
+|             Train/Epoch |             968 |
+|        Train/TotalSteps |        1.94e+07 |
+|          Train/StopIter |              35 |
+|                Train/KL |          0.0203 |
+|                Train/LR |         9.6e-06 |
+| Loss/Loss_reward_critic |          0.0144 |
+|   Loss/Loss_cost_critic |        7.07e-10 |
+|         Loss/Loss_actor |         -0.0208 |
+|            Time/Rollout |             116 |
+|             Time/Update |            42.5 |
+|              Time/Total |             159 |
+|         Value/RewardAdv |        4.01e-09 |
+|           Value/CostAdv |        1.54e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             245 |
+|            Metrics/Done |           0.867 |
+|             Train/Epoch |             969 |
+|        Train/TotalSteps |        1.94e+07 |
+|          Train/StopIter |              44 |
+|                Train/KL |          0.0204 |
+|                Train/LR |         9.3e-06 |
+| Loss/Loss_reward_critic |          0.0151 |
+|   Loss/Loss_cost_critic |        6.76e-10 |
+|         Loss/Loss_actor |         -0.0221 |
+|            Time/Rollout |             113 |
+|             Time/Update |            53.4 |
+|              Time/Total |             166 |
+|         Value/RewardAdv |        4.48e-09 |
+|           Value/CostAdv |       -5.15e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.84 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             230 |
+|            Metrics/Done |           0.909 |
+|             Train/Epoch |             970 |
+|        Train/TotalSteps |        1.94e+07 |
+|          Train/StopIter |              32 |
+|                Train/KL |          0.0203 |
+|                Train/LR |           9e-06 |
+| Loss/Loss_reward_critic |          0.0156 |
+|   Loss/Loss_cost_critic |        8.03e-10 |
+|         Loss/Loss_actor |         -0.0184 |
+|            Time/Rollout |             119 |
+|             Time/Update |            39.8 |
+|              Time/Total |             159 |
+|         Value/RewardAdv |        3.39e-09 |
+|           Value/CostAdv |       -1.17e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             250 |
+|            Metrics/Done |           0.855 |
+|             Train/Epoch |             971 |
+|        Train/TotalSteps |        1.94e+07 |
+|          Train/StopIter |              43 |
+|                Train/KL |          0.0203 |
+|                Train/LR |         8.7e-06 |
+| Loss/Loss_reward_critic |          0.0167 |
+|   Loss/Loss_cost_critic |        9.04e-10 |
+|         Loss/Loss_actor |         -0.0221 |
+|            Time/Rollout |             105 |
+|             Time/Update |            53.4 |
+|              Time/Total |             159 |
+|         Value/RewardAdv |        1.36e-08 |
+|           Value/CostAdv |         2.3e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             249 |
+|            Metrics/Done |           0.893 |
+|             Train/Epoch |             972 |
+|        Train/TotalSteps |        1.94e+07 |
+|          Train/StopIter |              53 |
+|                Train/KL |          0.0215 |
+|                Train/LR |         8.4e-06 |
+| Loss/Loss_reward_critic |          0.0176 |
+|   Loss/Loss_cost_critic |        6.55e-10 |
+|         Loss/Loss_actor |         -0.0244 |
+|            Time/Rollout |             115 |
+|             Time/Update |            63.9 |
+|              Time/Total |             179 |
+|         Value/RewardAdv |        2.86e-10 |
+|           Value/CostAdv |        1.23e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             233 |
+|            Metrics/Done |           0.882 |
+|             Train/Epoch |             973 |
+|        Train/TotalSteps |        1.95e+07 |
+|          Train/StopIter |              47 |
+|                Train/KL |          0.0209 |
+|                Train/LR |         8.1e-06 |
+| Loss/Loss_reward_critic |          0.0176 |
+|   Loss/Loss_cost_critic |        8.39e-10 |
+|         Loss/Loss_actor |         -0.0186 |
+|            Time/Rollout |             116 |
+|             Time/Update |            56.4 |
+|              Time/Total |             172 |
+|         Value/RewardAdv |       -5.01e-09 |
+|           Value/CostAdv |       -6.71e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             239 |
+|            Metrics/Done |           0.905 |
+|             Train/Epoch |             974 |
+|        Train/TotalSteps |        1.95e+07 |
+|          Train/StopIter |              53 |
+|                Train/KL |          0.0207 |
+|                Train/LR |         7.8e-06 |
+| Loss/Loss_reward_critic |          0.0154 |
+|   Loss/Loss_cost_critic |        8.71e-10 |
+|         Loss/Loss_actor |         -0.0232 |
+|            Time/Rollout |             111 |
+|             Time/Update |            63.7 |
+|              Time/Total |             174 |
+|         Value/RewardAdv |        6.48e-09 |
+|           Value/CostAdv |       -6.51e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.74 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             257 |
+|            Metrics/Done |           0.861 |
+|             Train/Epoch |             975 |
+|        Train/TotalSteps |        1.95e+07 |
+|          Train/StopIter |              45 |
+|                Train/KL |          0.0201 |
+|                Train/LR |         7.5e-06 |
+| Loss/Loss_reward_critic |          0.0271 |
+|   Loss/Loss_cost_critic |        8.47e-10 |
+|         Loss/Loss_actor |         -0.0205 |
+|            Time/Rollout |             104 |
+|             Time/Update |            55.9 |
+|              Time/Total |             160 |
+|         Value/RewardAdv |       -9.54e-10 |
+|           Value/CostAdv |       -6.32e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.68 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             231 |
+|            Metrics/Done |           0.893 |
+|             Train/Epoch |             976 |
+|        Train/TotalSteps |        1.95e+07 |
+|          Train/StopIter |              55 |
+|                Train/KL |          0.0206 |
+|                Train/LR |         7.2e-06 |
+| Loss/Loss_reward_critic |          0.0237 |
+|   Loss/Loss_cost_critic |        8.75e-10 |
+|         Loss/Loss_actor |         -0.0222 |
+|            Time/Rollout |             115 |
+|             Time/Update |            68.2 |
+|              Time/Total |             183 |
+|         Value/RewardAdv |       -4.96e-09 |
+|           Value/CostAdv |       -7.99e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             229 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             977 |
+|        Train/TotalSteps |        1.95e+07 |
+|          Train/StopIter |              50 |
+|                Train/KL |          0.0201 |
+|                Train/LR |         6.9e-06 |
+| Loss/Loss_reward_critic |          0.0172 |
+|   Loss/Loss_cost_critic |        7.87e-10 |
+|         Loss/Loss_actor |         -0.0225 |
+|            Time/Rollout |             114 |
+|             Time/Update |              60 |
+|              Time/Total |             174 |
+|         Value/RewardAdv |        9.25e-09 |
+|           Value/CostAdv |       -1.36e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             237 |
+|            Metrics/Done |           0.895 |
+|             Train/Epoch |             978 |
+|        Train/TotalSteps |        1.96e+07 |
+|          Train/StopIter |              62 |
+|                Train/KL |          0.0209 |
+|                Train/LR |         6.6e-06 |
+| Loss/Loss_reward_critic |          0.0191 |
+|   Loss/Loss_cost_critic |        9.65e-10 |
+|         Loss/Loss_actor |         -0.0235 |
+|            Time/Rollout |             117 |
+|             Time/Update |              77 |
+|              Time/Total |             194 |
+|         Value/RewardAdv |       -5.63e-09 |
+|           Value/CostAdv |        5.85e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.928 |
+|             Train/Epoch |             979 |
+|        Train/TotalSteps |        1.96e+07 |
+|          Train/StopIter |              77 |
+|                Train/KL |          0.0204 |
+|                Train/LR |         6.3e-06 |
+| Loss/Loss_reward_critic |          0.0145 |
+|   Loss/Loss_cost_critic |        8.09e-10 |
+|         Loss/Loss_actor |         -0.0236 |
+|            Time/Rollout |             131 |
+|             Time/Update |            92.9 |
+|              Time/Total |             224 |
+|         Value/RewardAdv |        1.14e-09 |
+|           Value/CostAdv |       -4.14e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.74 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             216 |
+|            Metrics/Done |           0.912 |
+|             Train/Epoch |             980 |
+|        Train/TotalSteps |        1.96e+07 |
+|          Train/StopIter |              75 |
+|                Train/KL |           0.021 |
+|                Train/LR |           6e-06 |
+| Loss/Loss_reward_critic |          0.0169 |
+|   Loss/Loss_cost_critic |        1.09e-09 |
+|         Loss/Loss_actor |         -0.0216 |
+|            Time/Rollout |             121 |
+|             Time/Update |            90.9 |
+|              Time/Total |             212 |
+|         Value/RewardAdv |        3.58e-09 |
+|           Value/CostAdv |        1.48e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.74 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             219 |
+|            Metrics/Done |           0.926 |
+|             Train/Epoch |             981 |
+|        Train/TotalSteps |        1.96e+07 |
+|          Train/StopIter |              67 |
+|                Train/KL |          0.0209 |
+|                Train/LR |         5.7e-06 |
+| Loss/Loss_reward_critic |          0.0203 |
+|   Loss/Loss_cost_critic |         8.3e-10 |
+|         Loss/Loss_actor |         -0.0241 |
+|            Time/Rollout |             120 |
+|             Time/Update |            80.5 |
+|              Time/Total |             200 |
+|         Value/RewardAdv |          -2e-09 |
+|           Value/CostAdv |       -1.52e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.85 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             227 |
+|            Metrics/Done |           0.881 |
+|             Train/Epoch |             982 |
+|        Train/TotalSteps |        1.96e+07 |
+|          Train/StopIter |              91 |
+|                Train/KL |          0.0202 |
+|                Train/LR |         5.4e-06 |
+| Loss/Loss_reward_critic |           0.017 |
+|   Loss/Loss_cost_critic |        8.49e-10 |
+|         Loss/Loss_actor |         -0.0262 |
+|            Time/Rollout |             103 |
+|             Time/Update |             110 |
+|              Time/Total |             214 |
+|         Value/RewardAdv |       -4.01e-09 |
+|           Value/CostAdv |        7.31e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             247 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             983 |
+|        Train/TotalSteps |        1.97e+07 |
+|          Train/StopIter |              85 |
+|                Train/KL |            0.02 |
+|                Train/LR |         5.1e-06 |
+| Loss/Loss_reward_critic |          0.0193 |
+|   Loss/Loss_cost_critic |        8.16e-10 |
+|         Loss/Loss_actor |         -0.0252 |
+|            Time/Rollout |             112 |
+|             Time/Update |             103 |
+|              Time/Total |             215 |
+|         Value/RewardAdv |         1.3e-08 |
+|           Value/CostAdv |        1.04e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             232 |
+|            Metrics/Done |           0.898 |
+|             Train/Epoch |             984 |
+|        Train/TotalSteps |        1.97e+07 |
+|          Train/StopIter |              73 |
+|                Train/KL |          0.0204 |
+|                Train/LR |         4.8e-06 |
+| Loss/Loss_reward_critic |          0.0172 |
+|   Loss/Loss_cost_critic |        9.41e-10 |
+|         Loss/Loss_actor |         -0.0261 |
+|            Time/Rollout |             114 |
+|             Time/Update |            88.6 |
+|              Time/Total |             203 |
+|         Value/RewardAdv |       -1.91e-10 |
+|           Value/CostAdv |        4.96e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             224 |
+|            Metrics/Done |           0.911 |
+|             Train/Epoch |             985 |
+|        Train/TotalSteps |        1.97e+07 |
+|          Train/StopIter |              84 |
+|                Train/KL |            0.02 |
+|                Train/LR |         4.5e-06 |
+| Loss/Loss_reward_critic |          0.0161 |
+|   Loss/Loss_cost_critic |        8.96e-10 |
+|         Loss/Loss_actor |         -0.0261 |
+|            Time/Rollout |             119 |
+|             Time/Update |             102 |
+|              Time/Total |             221 |
+|         Value/RewardAdv |       -4.29e-09 |
+|           Value/CostAdv |        -5.9e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             229 |
+|            Metrics/Done |           0.894 |
+|             Train/Epoch |             986 |
+|        Train/TotalSteps |        1.97e+07 |
+|          Train/StopIter |              92 |
+|                Train/KL |          0.0202 |
+|                Train/LR |         4.2e-06 |
+| Loss/Loss_reward_critic |            0.02 |
+|   Loss/Loss_cost_critic |         1.3e-09 |
+|         Loss/Loss_actor |         -0.0242 |
+|            Time/Rollout |             115 |
+|             Time/Update |             112 |
+|              Time/Total |             227 |
+|         Value/RewardAdv |       -1.54e-08 |
+|           Value/CostAdv |       -3.86e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             215 |
+|            Metrics/Done |           0.929 |
+|             Train/Epoch |             987 |
+|        Train/TotalSteps |        1.97e+07 |
+|          Train/StopIter |              86 |
+|                Train/KL |          0.0202 |
+|                Train/LR |         3.9e-06 |
+| Loss/Loss_reward_critic |          0.0157 |
+|   Loss/Loss_cost_critic |        9.15e-10 |
+|         Loss/Loss_actor |         -0.0275 |
+|            Time/Rollout |             131 |
+|             Time/Update |             105 |
+|              Time/Total |             236 |
+|         Value/RewardAdv |       -1.24e-08 |
+|           Value/CostAdv |        9.86e-15 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             208 |
+|            Metrics/Done |            0.92 |
+|             Train/Epoch |             988 |
+|        Train/TotalSteps |        1.98e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0193 |
+|                Train/LR |         3.6e-06 |
+| Loss/Loss_reward_critic |          0.0203 |
+|   Loss/Loss_cost_critic |        1.34e-09 |
+|         Loss/Loss_actor |         -0.0232 |
+|            Time/Rollout |             119 |
+|             Time/Update |             122 |
+|              Time/Total |             241 |
+|         Value/RewardAdv |        -7.1e-09 |
+|           Value/CostAdv |        3.26e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.68 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             236 |
+|            Metrics/Done |           0.908 |
+|             Train/Epoch |             989 |
+|        Train/TotalSteps |        1.98e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0183 |
+|                Train/LR |         3.3e-06 |
+| Loss/Loss_reward_critic |          0.0216 |
+|   Loss/Loss_cost_critic |        1.22e-09 |
+|         Loss/Loss_actor |          -0.024 |
+|            Time/Rollout |             117 |
+|             Time/Update |             122 |
+|              Time/Total |             239 |
+|         Value/RewardAdv |        4.58e-09 |
+|           Value/CostAdv |       -2.42e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             240 |
+|            Metrics/Done |           0.873 |
+|             Train/Epoch |             990 |
+|        Train/TotalSteps |        1.98e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0158 |
+|                Train/LR |           3e-06 |
+| Loss/Loss_reward_critic |          0.0153 |
+|   Loss/Loss_cost_critic |        8.88e-10 |
+|         Loss/Loss_actor |         -0.0218 |
+|            Time/Rollout |             109 |
+|             Time/Update |             122 |
+|              Time/Total |             231 |
+|         Value/RewardAdv |       -1.09e-08 |
+|           Value/CostAdv |       -1.53e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.78 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             243 |
+|            Metrics/Done |           0.902 |
+|             Train/Epoch |             991 |
+|        Train/TotalSteps |        1.98e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0163 |
+|                Train/LR |         2.7e-06 |
+| Loss/Loss_reward_critic |          0.0196 |
+|   Loss/Loss_cost_critic |        1.36e-09 |
+|         Loss/Loss_actor |         -0.0252 |
+|            Time/Rollout |             125 |
+|             Time/Update |             122 |
+|              Time/Total |             246 |
+|         Value/RewardAdv |        9.54e-10 |
+|           Value/CostAdv |       -4.58e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.86 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             202 |
+|            Metrics/Done |           0.919 |
+|             Train/Epoch |             992 |
+|        Train/TotalSteps |        1.98e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0181 |
+|                Train/LR |         2.4e-06 |
+| Loss/Loss_reward_critic |          0.0158 |
+|   Loss/Loss_cost_critic |        1.25e-09 |
+|         Loss/Loss_actor |          -0.027 |
+|            Time/Rollout |             112 |
+|             Time/Update |             122 |
+|              Time/Total |             234 |
+|         Value/RewardAdv |       -3.91e-09 |
+|           Value/CostAdv |       -1.15e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             258 |
+|            Metrics/Done |           0.877 |
+|             Train/Epoch |             993 |
+|        Train/TotalSteps |        1.99e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0143 |
+|                Train/LR |         2.1e-06 |
+| Loss/Loss_reward_critic |          0.0206 |
+|   Loss/Loss_cost_critic |        1.48e-09 |
+|         Loss/Loss_actor |         -0.0206 |
+|            Time/Rollout |             110 |
+|             Time/Update |             124 |
+|              Time/Total |             234 |
+|         Value/RewardAdv |        5.72e-09 |
+|           Value/CostAdv |        7.32e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |             4.8 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             244 |
+|            Metrics/Done |           0.875 |
+|             Train/Epoch |             994 |
+|        Train/TotalSteps |        1.99e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0141 |
+|                Train/LR |         1.8e-06 |
+| Loss/Loss_reward_critic |          0.0195 |
+|   Loss/Loss_cost_critic |        1.13e-09 |
+|         Loss/Loss_actor |         -0.0227 |
+|            Time/Rollout |             108 |
+|             Time/Update |             126 |
+|              Time/Total |             234 |
+|         Value/RewardAdv |       -2.38e-09 |
+|           Value/CostAdv |        1.77e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.76 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             231 |
+|            Metrics/Done |           0.888 |
+|             Train/Epoch |             995 |
+|        Train/TotalSteps |        1.99e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0132 |
+|                Train/LR |         1.5e-06 |
+| Loss/Loss_reward_critic |          0.0193 |
+|   Loss/Loss_cost_critic |        1.68e-09 |
+|         Loss/Loss_actor |         -0.0193 |
+|            Time/Rollout |             121 |
+|             Time/Update |             126 |
+|              Time/Total |             247 |
+|         Value/RewardAdv |        1.05e-09 |
+|           Value/CostAdv |       -1.01e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.75 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             250 |
+|            Metrics/Done |           0.892 |
+|             Train/Epoch |             996 |
+|        Train/TotalSteps |        1.99e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0123 |
+|                Train/LR |         1.2e-06 |
+| Loss/Loss_reward_critic |          0.0157 |
+|   Loss/Loss_cost_critic |        1.18e-09 |
+|         Loss/Loss_actor |         -0.0226 |
+|            Time/Rollout |             113 |
+|             Time/Update |             121 |
+|              Time/Total |             234 |
+|         Value/RewardAdv |        5.72e-10 |
+|           Value/CostAdv |       -1.44e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.83 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             217 |
+|            Metrics/Done |           0.909 |
+|             Train/Epoch |             997 |
+|        Train/TotalSteps |        1.99e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0117 |
+|                Train/LR |           9e-07 |
+| Loss/Loss_reward_critic |          0.0187 |
+|   Loss/Loss_cost_critic |        1.56e-09 |
+|         Loss/Loss_actor |         -0.0206 |
+|            Time/Rollout |             118 |
+|             Time/Update |             121 |
+|              Time/Total |             239 |
+|         Value/RewardAdv |        5.72e-09 |
+|           Value/CostAdv |       -7.62e-14 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.79 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             243 |
+|            Metrics/Done |           0.889 |
+|             Train/Epoch |             998 |
+|        Train/TotalSteps |           2e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |          0.0103 |
+|                Train/LR |           6e-07 |
+| Loss/Loss_reward_critic |          0.0231 |
+|   Loss/Loss_cost_critic |        1.51e-09 |
+|         Loss/Loss_actor |         -0.0199 |
+|            Time/Rollout |             110 |
+|             Time/Update |             124 |
+|              Time/Total |             235 |
+|         Value/RewardAdv |        3.96e-09 |
+|           Value/CostAdv |        1.52e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.82 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             249 |
+|            Metrics/Done |           0.881 |
+|             Train/Epoch |             999 |
+|        Train/TotalSteps |           2e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |         0.00796 |
+|                Train/LR |           3e-07 |
+| Loss/Loss_reward_critic |          0.0156 |
+|   Loss/Loss_cost_critic |        1.06e-09 |
+|         Loss/Loss_actor |          -0.016 |
+|            Time/Rollout |             114 |
+|             Time/Update |             126 |
+|              Time/Total |             239 |
+|         Value/RewardAdv |        -4.2e-09 |
+|           Value/CostAdv |        2.35e-13 |
+---------------------------------------------
+---------------------------------------------
+|           Metrics/EpRet |            4.81 |
+|          Metrics/EpCost |               0 |
+|           Metrics/EpLen |             236 |
+|            Metrics/Done |           0.898 |
+|             Train/Epoch |           1e+03 |
+|        Train/TotalSteps |           2e+07 |
+|          Train/StopIter |             100 |
+|                Train/KL |         0.00552 |
+|                Train/LR |               0 |
+| Loss/Loss_reward_critic |          0.0165 |
+|   Loss/Loss_cost_critic |        2.23e-09 |
+|         Loss/Loss_actor |         -0.0114 |
+|            Time/Rollout |             118 |
+|             Time/Update |             126 |
+|              Time/Total |             244 |
+|         Value/RewardAdv |       -5.72e-10 |
+|           Value/CostAdv |        1.38e-13 |
+---------------------------------------------
+/home/zzydty/anaconda3/envs/safety/lib/python3.8/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/zzydty/anaconda3/envs/safety/lib/python3.8/site-packages/torch/cuda/__init__.py:749: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() if nvml_count < 0 else nvml_count
+/home/zzydty/anaconda3/envs/safety/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+[32mSave model to disk...[0m
+[32mDone.[0m
+[32mSave model to disk...[0m
+[32mDone.[0m

@@ -236,7 +236,7 @@ def show_recs(rectangles):
     plt.axis('off')  # 关闭坐标轴显示
     plt.show()
 def main():
-    input_image_path = 'pngmap.png'
+    input_image_path = 'maps/pngmap.png'
     output_image_path = 'processed_map.png'
     x = 5  # Size of the square region
     image = Image.open(input_image_path)
