@@ -3,11 +3,13 @@
 import safety_gymnasium
 
 env_id = 'SafetyRacecarGoal0-v0'
+render = True
 if render:
     env = safety_gymnasium.make(env_id,render_mode="human")
 else:
     env = safety_gymnasium.make(env_id)
 obs, info = env.reset()
+print("env ok.")
 while True:
     act = [10,0]
     obs, reward, cost, terminated, truncated, info = env.step(act)
