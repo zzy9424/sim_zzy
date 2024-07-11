@@ -3,7 +3,7 @@
 import safety_gymnasium
 
 env_id = 'SafetyRacecarGoal0-v0'
-env = safety_gymnasium.make(env_id, render_mode="human")
+env = safety_gymnasium.make(env_id)
 obs, info = env.reset()
 while True:
     act = [10,0]
