@@ -11,7 +11,7 @@ else:
 obs, info = env.reset()
 print("env ok.")
 while True:
-    act = [10,0]
+    act = [0,0]
     obs, reward, cost, terminated, truncated, info = env.step(act)
     print(len(obs))
     print(obs)

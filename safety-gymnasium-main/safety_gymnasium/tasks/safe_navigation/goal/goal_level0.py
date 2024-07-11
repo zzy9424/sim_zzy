@@ -44,7 +44,7 @@ class GoalLevel0(BaseTask):
         self.goal_type_mapping = {}
         # self.goal_locs = [(-1.7, -1.7),(0.1, -1.7),(1.7,-1.7)]
 
-        self.goal_locs = [(-10.0,-10.0)]
+        self.goal_locs = [(10.0,0.1)]
         for idx,loc in enumerate(self.goal_locs):
             loc_str = str(loc[0])+","+str(loc[1])
             self.goal_type_mapping[loc_str] = idx
@@ -65,7 +65,7 @@ class GoalLevel0(BaseTask):
         pass
 
     def specific_pre_reset(self):
-        self.agent.locations = ((10.0, 10.0),)
+        self.agent.locations = ((0.0, 10.0),)
         self.agent.rot = math.pi
 
         self.goal.locations = (random.choice(self.goal_locs),)
