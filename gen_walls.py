@@ -231,7 +231,7 @@ def show_recs(rectangles):
 def main():
     input_image_path = 'maps/officemap_new.png'
     output_image_path = 'processed_map.png'
-    x = 2  # Size of the square region
+    x = 5  # Size of the square region
     image = Image.open(input_image_path)
     # 去掉边框
     image = crop_gray_border(image)
@@ -250,6 +250,7 @@ def main():
         new_x = round(scale * (x + dx),2)
         new_y = round(scale * (y + dy),2)
         scaled_coords.append((new_x, new_y))
+
 
     with open('array.pkl', 'wb') as file:
         pickle.dump(scaled_coords, file)
