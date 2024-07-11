@@ -243,7 +243,7 @@ def main():
 
     dx = -black_pixels[-1][0]/2  # x 方向的位移
     dy = -black_pixels[-1][1]/2  # y 方向的位移
-    scale = 0.2  # 缩放比例
+    scale = 0.18  # 缩放比例
     scaled_coords = []
     for (x, y) in black_pixels:
         # 应用位移和缩放
