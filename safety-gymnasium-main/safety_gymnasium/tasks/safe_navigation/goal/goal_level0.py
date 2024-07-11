@@ -43,7 +43,7 @@ class GoalLevel0(BaseTask):
         self.goal_type_mapping = {}
         # self.goal_locs = [(-1.7, -1.7),(0.1, -1.7),(1.7,-1.7)]
 
-        self.goal_locs = [(-5,-5)]
+        self.goal_locs = [(-5.0,-5.0)]
         for idx,loc in enumerate(self.goal_locs):
             loc_str = str(loc[0])+","+str(loc[1])
             self.goal_type_mapping[loc_str] = idx
