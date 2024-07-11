@@ -28,6 +28,7 @@ class GoalLevel0(BaseTask):
     """An agent must navigate to a goal."""
     def __init__(self, config) -> None:
         super().__init__(config=config)
+        self.floor_conf.size = [17.5, 17.5, 0.1]
         self.placements_conf.extents = [-1, -1, 1, 1]
         self._add_geoms(Goal(keepout=0.305,locations=[(-2, -2)],size=0.1))
         with open('array.pkl', 'rb') as file:
