@@ -231,7 +231,7 @@ def show_recs(rectangles):
 def main():
     input_image_path = 'maps/officemap_new.png'
     output_image_path = 'processed_map.png'
-    x = 5  # Size of the square region
+    x = 2  # Size of the square region
     image = Image.open(input_image_path)
     # 去掉边框
     image = crop_gray_border(image)
