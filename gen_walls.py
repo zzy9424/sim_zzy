@@ -229,9 +229,9 @@ def show_recs(rectangles):
     plt.axis('off')  # 关闭坐标轴显示
     plt.show()
 def main():
-    input_image_path = 'maps/pngmap.png'
+    input_image_path = 'maps/officemap_new.png'
     output_image_path = 'processed_map.png'
-    x = 4  # Size of the square region
+    x = 2  # Size of the square region
     image = Image.open(input_image_path)
     # 去掉边框
     image = crop_gray_border(image)
@@ -247,8 +247,8 @@ def main():
     scaled_coords = []
     for (x, y) in black_pixels:
         # 应用位移和缩放
-        new_x = scale * (x + dx)
-        new_y = scale * (y + dy)
+        new_x = round(scale * (x + dx),2)
+        new_y = round(scale * (y + dy),2)
         scaled_coords.append((new_x, new_y))
 
     with open('array.pkl', 'wb') as file:
