@@ -101,5 +101,6 @@ def eval_single_agent(eval_dir, eval_episodes):
 
 if __name__ == '__main__':
     # benchmark_eval()
-    reward,cost = eval_single_agent("runs/3_goal_type_near/SafetyRacecarGoal0-v0/ppo/seed-000-2024-07-09-17-17-09/", 10)
+    reward,cost = eval_single_agent(
+        "old_map_runs/3_goal_type_near/SafetyRacecarGoal0-v0/ppo/seed-000-2024-07-09-17-17-09/", 10)
     print(reward,cost)

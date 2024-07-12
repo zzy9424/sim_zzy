@@ -41873,3 +41873,38 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 [32mDone.[0m
 [32mSave model to disk...[0m
 [32mDone.[0m
+Using cuda:0
+/home/zzydty/miniconda3/envs/safety/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+[32mStart with training.[0m
+Traceback (most recent call last):
+  File "safepo/single_agent/ppo.py", line 421, in <module>
+    main(args, cfg_env)
+  File "safepo/single_agent/ppo.py", line 160, in main
+    next_obs, reward, cost, terminated, truncated, info = env.step(action)
+  File "/home/zzydty/sim/safepo/common/wrappers.py", line 47, in step
+    obs, rews, costs, terminateds, truncateds, infos = self.env.step(action)
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/site-packages/gymnasium/vector/vector_env.py", line 203, in step
+    return self.step_wait()
+  File "/home/zzydty/sim/safety-gymnasium-main/safety_gymnasium/vector/async_vector_env.py", line 122, in step_wait
+    result, success = pipe.recv()
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+/home/zzydty/miniconda3/envs/safety/lib/python3.8/site-packages/gymnasium/vector/async_vector_env.py:459: UserWarning: [33mWARN: Calling `close` while waiting for a pending call to `step` to complete.[0m
+  logger.warn(
+Exception ignored in: <function AsyncVectorEnv.__del__ at 0x7f4371e08940>
+Traceback (most recent call last):
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/site-packages/gymnasium/vector/async_vector_env.py", line 548, in __del__
+    self.close(terminate=True)
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/site-packages/gymnasium/vector/vector_env.py", line 271, in close
+    self.close_extras(**kwargs)
+  File "/home/zzydty/miniconda3/envs/safety/lib/python3.8/site-packages/gymnasium/vector/async_vector_env.py", line 463, in close_extras
+    function(timeout)
+  File "/home/zzydty/sim/safety-gymnasium-main/safety_gymnasium/vector/async_vector_env.py", line 123, in step_wait
+    obs, rew, cost, terminated, truncated, info = result
+TypeError: cannot unpack non-iterable NoneType object

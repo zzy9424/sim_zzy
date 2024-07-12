@@ -70,8 +70,9 @@ def main(args, cfg_env=None):
     torch.manual_seed(args.seed)
     torch.backends.cudnn.deterministic = True
     torch.set_num_threads(4)
-    device = torch.device(f'{args.device}:{args.device_id}')
-
+    device = torch.device(f'{args.device}')
+    print(f"Using {device}")
+    # exit()
 
     if args.task not in isaac_gym_map.keys():
         env, obs_space, act_space = make_sa_mujoco_env(
@@ -150,6 +151,7 @@ def main(args, cfg_env=None):
     )
     # training loop
     for epoch in range(epochs):
+
         rollout_start_time = time.time()
         # collect samples until we have enough to update
         for steps in range(local_steps_per_epoch):
@@ -382,7 +384,7 @@ def main(args, cfg_env=None):
 if __name__ == "__main__":
 
     args, cfg_env = single_agent_args()
-    args.experiment = "3_goal_type_near"
+    args.experiment = "ppo"
     relpath = time.strftime("%Y-%m-%d-%H-%M-%S")
     subfolder = "-".join(["seed", str(args.seed).zfill(3)])
     relpath = "-".join([subfolder, relpath])
