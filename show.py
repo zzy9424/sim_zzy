@@ -49,6 +49,7 @@ def eval_single_agent(eval_dir, eval_episodes):
     env.reset(seed=None)
     obs_space = env.observation_space
     act_space = env.action_space
+    print(act_space)
     env = SafeAutoResetWrapper(env)
     env = SafeRescaleAction(env, -1.0, 1.0)
     env = SafeNormalizeObservation(env)
@@ -59,8 +60,7 @@ def eval_single_agent(eval_dir, eval_episodes):
             act_dim=act_space.shape[0],
             hidden_sizes=config['hidden_sizes'],
         )
-    model.actor.load_state_dict(torch.load(model_path))
-
+    model.actor.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     if os.path.exists(norm_path):
         norm = joblib.load(open(norm_path, 'rb'))['Normalizer']
         eval_env.obs_rms = norm
@@ -85,6 +85,7 @@ def eval_single_agent(eval_dir, eval_episodes):
             eval_obs, reward, cost, terminated, truncated, info = eval_env.step(
                 act.detach().squeeze().cpu().numpy()
             )
+            print(act)
             eval_obs = torch.as_tensor(
                 eval_obs, dtype=torch.float32
             )
