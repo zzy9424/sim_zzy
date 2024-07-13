@@ -42,6 +42,7 @@ def build_mlp_network(sizes):
     layers = list()
     for j in range(len(sizes) - 1):
         act = nn.Tanh if j < len(sizes) - 2 else nn.Identity
+        # act = nn.Tanh
         affine_layer = nn.Linear(sizes[j], sizes[j + 1])
         nn.init.kaiming_uniform_(affine_layer.weight, a=np.sqrt(5))
         layers += [affine_layer, act()]
@@ -73,6 +74,7 @@ class Actor(nn.Module):
     def __init__(self, obs_dim: int, act_dim: int, hidden_sizes: list = [64, 64]):
         super().__init__()
         self.mean = build_mlp_network([obs_dim]+hidden_sizes+[act_dim])
+        print(self.mean)
         self.log_std = nn.Parameter(torch.zeros(act_dim), requires_grad=True)
 
     def forward(self, obs: torch.Tensor):

@@ -40,7 +40,7 @@ from safepo.common.logger import EpochLogger
 from safepo.common.model import ActorVCritic
 from safepo.utils.config import single_agent_args, isaac_gym_map, parse_sim_params
 
-CONJUGATE_GRADIENT_ITERS=15
+CONJUGATE_GRADIENT_ITERS=20
 TRPO_SEARCHING_STEPS=15
 
 default_cfg = {
@@ -49,7 +49,7 @@ default_cfg = {
     'target_kl': 0.01,
     'batch_size': 128,
     'learning_iters': 10,
-    'max_grad_norm': 40.0,
+    'max_grad_norm': 50.0,
 }
 
 isaac_gym_specific_cfg = {
@@ -299,6 +299,7 @@ def main(args, cfg_env=None):
                         len_deque.append(ep_len[idx])
                         logger.store(
                             **{
+                                "Metrics/Done": 1 if done else 0,
                                 "Metrics/EpRet": np.mean(rew_deque),
                                 "Metrics/EpCost": np.mean(cost_deque),
                                 "Metrics/EpLen": np.mean(len_deque),
@@ -489,6 +490,7 @@ def main(args, cfg_env=None):
             logger.log_tabular("Metrics/EpRet")
             logger.log_tabular("Metrics/EpCost")
             logger.log_tabular("Metrics/EpLen")
+            logger.log_tabular("Metrics/Done")
             if args.use_eval:
                 logger.log_tabular("Metrics/EvalEpRet")
                 logger.log_tabular("Metrics/EvalEpCost")

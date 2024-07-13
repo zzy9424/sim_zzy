@@ -47,7 +47,7 @@ default_cfg = {
     'target_kl': 0.02,
     'batch_size': 64,
     'learning_iters': 100,
-    'max_grad_norm': 40.0,
+    'max_grad_norm': 50.0,
 }
 
 isaac_gym_specific_cfg = {
@@ -101,7 +101,7 @@ def main(args, cfg_env=None):
         act_dim=act_space.shape[0],
         hidden_sizes=config["hidden_sizes"],
     ).to(device)
-    actor_optimizer = torch.optim.Adam(policy.actor.parameters(), lr=3e-4)
+    actor_optimizer = torch.optim.Adam(policy.actor.parameters(), lr=1e-3)
     actor_scheduler = LinearLR(
         actor_optimizer,
         start_factor=1.0,
@@ -110,10 +110,10 @@ def main(args, cfg_env=None):
         verbose=False,
     )
     reward_critic_optimizer = torch.optim.Adam(
-        policy.reward_critic.parameters(), lr=3e-4
+        policy.reward_critic.parameters(), lr=1e-3
     )
     cost_critic_optimizer = torch.optim.Adam(
-        policy.cost_critic.parameters(), lr=3e-4
+        policy.cost_critic.parameters(), lr=1e-3
     )
 
     # create the vectorized on-policy buffer

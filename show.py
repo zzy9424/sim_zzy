@@ -45,15 +45,16 @@ def eval_single_agent(eval_dir, eval_episodes):
     model_path = model_dir + '/' + final_model_name
     norm_path = eval_dir + '/' + final_norm_name
 
-    env = safety_gymnasium.make(env_id, render_mode="human")
+    env = safety_gymnasium.make(env_id, )
     env.reset(seed=None)
+
+    env = SafeAutoResetWrapper(env)
+    env = SafeRescaleAction(env, -1, 1)
+    env = SafeNormalizeObservation(env)
+    eval_env = SafeUnsqueeze(env)
     obs_space = env.observation_space
     act_space = env.action_space
     print(act_space)
-    env = SafeAutoResetWrapper(env)
-    env = SafeRescaleAction(env, -1.0, 1.0)
-    env = SafeNormalizeObservation(env)
-    eval_env = SafeUnsqueeze(env)
 
     model = ActorVCritic(
             obs_dim=obs_space.shape[0],
@@ -82,10 +83,8 @@ def eval_single_agent(eval_dir, eval_episodes):
                 act, _, _, _ = model.step(
                     eval_obs, deterministic=True
                 )
-            eval_obs, reward, cost, terminated, truncated, info = eval_env.step(
-                act.detach().squeeze().cpu().numpy()
-            )
-            print(act)
+            act = act.detach().squeeze().cpu().numpy()
+            eval_obs, reward, cost, terminated, truncated, info = eval_env.step(act)
             eval_obs = torch.as_tensor(
                 eval_obs, dtype=torch.float32
             )
