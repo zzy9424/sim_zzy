@@ -45,7 +45,7 @@ def eval_single_agent(eval_dir, eval_episodes):
     model_path = model_dir + '/' + final_model_name
     norm_path = eval_dir + '/' + final_norm_name
 
-    env = safety_gymnasium.make(env_id, )
+    env = safety_gymnasium.make(env_id,render_mode="human")
     env.reset(seed=None)
 
     env = SafeAutoResetWrapper(env)
@@ -102,5 +102,5 @@ def eval_single_agent(eval_dir, eval_episodes):
 if __name__ == '__main__':
     # benchmark_eval()
     reward,cost = eval_single_agent(
-        "runs/trpo/SafetyRacecarGoal0-v0/trpo/seed-000-2024-07-11-08-12-04", 10)
+        "runs/trpo/SafetyRacecarGoal0-v0/trpo/seed-000-2024-07-12-13-33-29", 10)
     print(reward,cost)
