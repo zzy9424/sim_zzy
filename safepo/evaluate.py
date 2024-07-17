@@ -16,6 +16,7 @@
 import argparse
 import os
 import json
+import re
 from collections import deque
 from safepo.common.env import make_sa_mujoco_env, make_ma_mujoco_env, make_ma_multi_goal_env, make_sa_isaac_env
 from safepo.common.model import ActorVCritic
@@ -32,18 +33,24 @@ def eval_single_agent(eval_dir, eval_episodes):
 
     env_id = config['task'] if 'task' in config.keys() else config['env_name']
     print(config['task'])
-    env_norms = os.listdir(eval_dir)
-    env_norms = [env_norm for env_norm in env_norms if env_norm.endswith('.pkl')]
-    final_norm_name = sorted(env_norms)[-1]
+    norms = os.listdir(eval_dir)
+    norms = [norm for norm in norms if norm.endswith('.pkl')]
+    norms_numbers = [(norm, int(re.search(r'\d+', norm).group())) for norm in norms]
+    final_norm_name = max(norms_numbers, key=lambda x: x[1])[0]
+
+
 
     model_dir = eval_dir + '/torch_save'
     models = os.listdir(model_dir)
     models = [model for model in models if model.endswith('.pt')]
-    final_model_name = sorted(models)[-1]
+    model_numbers = [(model, int(re.search(r'\d+', model).group())) for model in models]
+    final_model_name = max(model_numbers, key=lambda x: x[1])[0]
 
     model_path = model_dir + '/' + final_model_name
     norm_path = eval_dir + '/' + final_norm_name
 
+    print(model_path)
+    print(norm_path)
     eval_env, obs_space, act_space = make_sa_mujoco_env(num_envs=1, env_id=env_id, seed=None)
 
     model = ActorVCritic(
@@ -55,6 +62,7 @@ def eval_single_agent(eval_dir, eval_episodes):
 
     if os.path.exists(norm_path):
         norm = joblib.load(open(norm_path, 'rb'))['Normalizer']
+        print(norm)
         eval_env.obs_rms = norm
 
     eval_rew_deque = deque(maxlen=50)
@@ -84,7 +92,7 @@ def eval_single_agent(eval_dir, eval_episodes):
         eval_rew_deque.append(eval_rew)
         eval_cost_deque.append(eval_cost)
         eval_len_deque.append(eval_len)
-
+        print(eval_rew,eval_len)
     return sum(eval_rew_deque) / len(eval_rew_deque), sum(eval_cost_deque) / len(eval_cost_deque)
 
 
@@ -186,5 +194,4 @@ def benchmark_eval():
 
 if __name__ == '__main__':
     # benchmark_eval()
-    reward,cost = single_runs_eval("runs/128128withmagnet/SafetyRacecarGoal0-v0/ppo/seed-000-2024-07-05-15-37-14", 10)
-    print(reward,cost)
+    eval_single_agent("runs/ppo/SafetyRacecarGoal0-v0/ppo/seed-000-2024-07-12-13-33-29", 10)

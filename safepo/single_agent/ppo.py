@@ -231,8 +231,8 @@ def main(args, cfg_env=None):
         rollout_end_time = time.time()
 
         eval_start_time = time.time()
-
-        eval_episodes = 1 if epoch < epochs - 1 else 10
+        eval_episodes = 3
+        # eval_episodes = 1 if epoch < epochs - 1 else 10
         if args.use_eval:
             for _ in range(eval_episodes):
                 eval_done = False

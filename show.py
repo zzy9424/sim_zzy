@@ -44,8 +44,11 @@ def eval_single_agent(eval_dir, eval_episodes):
 
     model_path = model_dir + '/' + final_model_name
     norm_path = eval_dir + '/' + final_norm_name
-
-    env = safety_gymnasium.make(env_id,render_mode="human")
+    show=False
+    if show:
+        env = safety_gymnasium.make(env_id,render_mode="human")
+    else:
+        env = safety_gymnasium.make(env_id)
     env.reset(seed=None)
 
     env = SafeAutoResetWrapper(env)
@@ -78,7 +81,7 @@ def eval_single_agent(eval_dir, eval_episodes):
         step=0
         while not eval_done:
             step+=1
-            print(step)
+            # print(step)
             with torch.no_grad():
                 act, _, _, _ = model.step(
                     eval_obs, deterministic=True
