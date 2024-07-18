@@ -16,6 +16,7 @@
 import argparse
 import os
 import json
+import re
 import sys
 from collections import deque
 
@@ -33,36 +34,45 @@ import numpy as np
 import joblib
 import torch
 
-
 def eval_single_agent(eval_dir, eval_episodes):
-    torch.set_num_threads(4)
+
+    torch.set_num_threads(1)
     config_path = eval_dir + '/config.json'
     config = json.load(open(config_path, 'r'))
 
     env_id = config['task'] if 'task' in config.keys() else config['env_name']
-    env_norms = os.listdir(eval_dir)
-    env_norms = [env_norm for env_norm in env_norms if env_norm.endswith('.pkl')]
-    final_norm_name = sorted(env_norms)[-1]
+    print(config['task'])
+    norms = os.listdir(eval_dir)
+    norms = [norm for norm in norms if norm.endswith('.pkl')]
+    norms_numbers = [(norm, int(re.search(r'\d+', norm).group())) for norm in norms]
+    final_norm_name = max(norms_numbers, key=lambda x: x[1])[0]
+
+
 
     model_dir = eval_dir + '/torch_save'
     models = os.listdir(model_dir)
     models = [model for model in models if model.endswith('.pt')]
-    final_model_name = sorted(models)[-1]
+    model_numbers = [(model, int(re.search(r'\d+', model).group())) for model in models]
+    final_model_name = max(model_numbers, key=lambda x: x[1])[0]
 
     model_path = model_dir + '/' + final_model_name
+
     norm_path = eval_dir + '/' + final_norm_name
 
-    eval_env, obs_space, act_space = make_sa_mujoco_env(num_envs=config['num_envs'], env_id=env_id, seed=None)
+    print(model_path)
+    print(norm_path)
+    eval_env, obs_space, act_space = make_sa_mujoco_env(num_envs=1, env_id=env_id, seed=None)
 
     model = ActorVCritic(
-        obs_dim=obs_space.shape[0],
-        act_dim=act_space.shape[0],
-        hidden_sizes=config['hidden_sizes'],
-    )
+            obs_dim=obs_space.shape[0],
+            act_dim=act_space.shape[0],
+            hidden_sizes=config['hidden_sizes'],
+        )
     model.actor.load_state_dict(torch.load(model_path))
 
     if os.path.exists(norm_path):
         norm = joblib.load(open(norm_path, 'rb'))['Normalizer']
+        print(norm)
         eval_env.obs_rms = norm
 
     eval_rew_deque = deque(maxlen=50)
@@ -72,6 +82,7 @@ def eval_single_agent(eval_dir, eval_episodes):
     for _ in range(eval_episodes):
         eval_done = False
         eval_obs, _ = eval_env.reset()
+
         eval_obs = torch.as_tensor(eval_obs, dtype=torch.float32)
         eval_rew, eval_cost, eval_len = 0.0, 0.0, 0.0
         while not eval_done:
@@ -92,11 +103,12 @@ def eval_single_agent(eval_dir, eval_episodes):
         eval_rew_deque.append(eval_rew)
         eval_cost_deque.append(eval_cost)
         eval_len_deque.append(eval_len)
-
+        print(eval_rew,eval_len)
     return sum(eval_rew_deque) / len(eval_rew_deque), sum(eval_cost_deque) / len(eval_cost_deque)
 
 
 def eval_multi_agent(eval_dir, eval_episodes):
+
     config_path = eval_dir + '/config.json'
     config = json.load(open(config_path, 'r'))
 
@@ -141,6 +153,7 @@ def eval_multi_agent(eval_dir, eval_episodes):
 
 
 def single_runs_eval(eval_dir, eval_episodes):
+
     config_path = eval_dir + '/config.json'
     config = json.load(open(config_path, 'r'))
     env = config['task'] if 'task' in config.keys() else config['env_name']
@@ -148,9 +161,8 @@ def single_runs_eval(eval_dir, eval_episodes):
         reward, cost = eval_multi_agent(eval_dir, eval_episodes)
     else:
         reward, cost = eval_single_agent(eval_dir, eval_episodes)
-
+    
     return reward, cost
-
 
 def benchmark_eval():
     parser = argparse.ArgumentParser()
@@ -188,11 +200,11 @@ def benchmark_eval():
             reward_std = round(np.std(rewards), 2)
             cost_mean = round(np.mean(costs), 2)
             cost_std = round(np.std(costs), 2)
-            print(
-                f"After {eval_episodes} episodes evaluation, the {algo} in {env} evaluation reward: {reward_mean}±{reward_std}, cost: {cost_mean}±{cost_std}, the reuslt is saved in {save_dir}/eval_result.txt")
-            output_file.write(
-                f"After {eval_episodes} episodes evaluation, the {algo} in {env} evaluation reward: {reward_mean}±{reward_std}, cost: {cost_mean}±{cost_std} \n")
-
+            print(f"After {eval_episodes} episodes evaluation, the {algo} in {env} evaluation reward: {reward_mean}±{reward_std}, cost: {cost_mean}±{cost_std}, the reuslt is saved in {save_dir}/eval_result.txt")
+            output_file.write(f"After {eval_episodes} episodes evaluation, the {algo} in {env} evaluation reward: {reward_mean}±{reward_std}, cost: {cost_mean}±{cost_std} \n")
 
 if __name__ == '__main__':
-    benchmark_eval()
+    # benchmark_eval()
+    # reward, cost = single_runs_eval("../runs/ppo/SafetyRacecarGoal0-v0/ppo/seed-000-2024-07-12-13-33-29", 10)
+    reward, cost = single_runs_eval("runs/trpo/SafetyRacecarGoal0-v0/trpo/seed-000-2024-07-12-13-33-29", 10)
+    print(reward, cost)

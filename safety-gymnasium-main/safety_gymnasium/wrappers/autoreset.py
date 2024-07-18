@@ -46,6 +46,9 @@ class SafeAutoResetWrapper(AutoResetWrapper):
         obs, reward, cost, terminated, truncated, info = self.env.step(action)
         if terminated or truncated:
             new_obs, new_info = self.env.reset()
+            print('===================')
+            print(new_obs)
+            print('reset sucess!!!!!!')
             assert (
                 'final_observation' not in new_info
             ), 'info dict cannot contain key "final_observation" '

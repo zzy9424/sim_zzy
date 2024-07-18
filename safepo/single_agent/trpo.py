@@ -22,8 +22,15 @@ import sys
 import time
 from collections import deque
 from typing import Callable
-
 import numpy as np
+
+# 获取当前脚本所在的目录
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# 获取项目根目录的路径
+project_dir = os.path.abspath(os.path.join(current_dir, "../.."))
+# 将项目根目录添加到Python解释器的搜索路径中
+sys.path.append(project_dir)
+
 try: 
     from isaacgym import gymutil
 except ImportError:
@@ -236,9 +243,15 @@ def main(args, cfg_env=None):
         np.zeros(args.num_envs),
     )
     # training loop
+    # local_steps_per_epoch = 5
+    # TRPO_SEARCHING_STEPS = 2
+    # CONJUGATE_GRADIENT_ITERS = 2
+    # config["learning_iters"] = 2
+
     for epoch in range(epochs):
         rollout_start_time = time.time()
         # collect samples until we have enough to update
+        print('new episode!!!!')
         for steps in range(local_steps_per_epoch):
             with torch.no_grad():
                 act, log_prob, value_r, value_c = policy.step(obs, deterministic=False)
