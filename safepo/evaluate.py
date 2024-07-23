@@ -19,6 +19,7 @@ import json
 import sys
 from collections import deque
 
+import random
 # 获取当前脚本所在的目录
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # 获取项目根目录的路径
@@ -52,13 +53,22 @@ def eval_single_agent(eval_dir, eval_episodes):
     model_path = model_dir + '/' + final_model_name
     norm_path = eval_dir + '/' + final_norm_name
 
-    eval_env, obs_space, act_space = make_sa_mujoco_env(num_envs=config['num_envs'], env_id=env_id, seed=None)
+    print('================')
+    print(model_path)
+    print(norm_path)
+    #print('config[\'num_envs\'] is {}'.format(config['num_envs']))
+
+    #eval_env, obs_space, act_space = make_sa_mujoco_env(num_envs=config['num_envs'], env_id=env_id, seed=None)
+    eval_env, obs_space, act_space = make_sa_mujoco_env(num_envs=1, env_id=env_id, seed=0)
+
+    device = torch.device('cuda:0')
 
     model = ActorVCritic(
         obs_dim=obs_space.shape[0],
         act_dim=act_space.shape[0],
         hidden_sizes=config['hidden_sizes'],
-    )
+    ).to(device)
+
     model.actor.load_state_dict(torch.load(model_path))
 
     if os.path.exists(norm_path):
@@ -72,7 +82,7 @@ def eval_single_agent(eval_dir, eval_episodes):
     for _ in range(eval_episodes):
         eval_done = False
         eval_obs, _ = eval_env.reset()
-        eval_obs = torch.as_tensor(eval_obs, dtype=torch.float32)
+        eval_obs = torch.as_tensor(eval_obs, dtype=torch.float32, device=device)
         eval_rew, eval_cost, eval_len = 0.0, 0.0, 0.0
         while not eval_done:
             with torch.no_grad():
@@ -83,7 +93,7 @@ def eval_single_agent(eval_dir, eval_episodes):
                 act.detach().squeeze().cpu().numpy()
             )
             eval_obs = torch.as_tensor(
-                eval_obs, dtype=torch.float32
+                eval_obs, dtype=torch.float32, device=device
             )
             eval_rew += reward[0]
             eval_cost += cost[0]
@@ -92,6 +102,8 @@ def eval_single_agent(eval_dir, eval_episodes):
         eval_rew_deque.append(eval_rew)
         eval_cost_deque.append(eval_cost)
         eval_len_deque.append(eval_len)
+
+        print('Reward of an episode is {}'.format(np.mean(eval_rew_deque)))
 
     return sum(eval_rew_deque) / len(eval_rew_deque), sum(eval_cost_deque) / len(eval_cost_deque)
 
@@ -144,6 +156,7 @@ def single_runs_eval(eval_dir, eval_episodes):
     config_path = eval_dir + '/config.json'
     config = json.load(open(config_path, 'r'))
     env = config['task'] if 'task' in config.keys() else config['env_name']
+
     if env in multi_agent_velocity_map.keys() or env in multi_agent_goal_tasks:
         reward, cost = eval_multi_agent(eval_dir, eval_episodes)
     else:
@@ -195,4 +208,11 @@ def benchmark_eval():
 
 
 if __name__ == '__main__':
+    # python safepo/evaluate.py --benchmark-dir ./runs/trpo --eval-episodes 3
+    # tensorboard --logdir=./runs/trpo --port=6066
+
+    random.seed(0)
+    np.random.seed(0)
+    torch.manual_seed(0)
+
     benchmark_eval()

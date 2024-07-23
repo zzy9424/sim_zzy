@@ -72,6 +72,9 @@ def make_sa_mujoco_env(num_envs: int, env_id: str, seed: int|None = None):
         env.reset(seed=seed)
         obs_space = env.observation_space
         act_space = env.action_space
+        '''
+        为什么num_envs=1的时候有SafeAutoResetWrapper；而num_envs>1的时候没有？？？
+        '''
         env = SafeAutoResetWrapper(env)
         env = SafeRescaleAction(env, -1.0, 1.0)
         env = SafeNormalizeObservation(env)

@@ -173,7 +173,9 @@ def main(args, cfg_env=None):
     torch.backends.cudnn.deterministic = True
     torch.set_num_threads(4)
     device = torch.device(f'{args.device}')
+
     print(f"Using {device}")
+    print(f'Seed in env is {args.seed}')
 
     if args.task not in isaac_gym_map.keys():
         env, obs_space, act_space = make_sa_mujoco_env(

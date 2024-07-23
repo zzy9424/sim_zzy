@@ -74,8 +74,9 @@ class Actor(nn.Module):
     def __init__(self, obs_dim: int, act_dim: int, hidden_sizes: list = [64, 64]):
         super().__init__()
         self.mean = build_mlp_network([obs_dim]+hidden_sizes+[act_dim])
-        print(self.mean)
         self.log_std = nn.Parameter(torch.zeros(act_dim), requires_grad=True)
+
+        print('Seed in Actor is {}'.format(torch.initial_seed()))
 
     def forward(self, obs: torch.Tensor):
         mean = self.mean(obs)
@@ -135,6 +136,8 @@ class ActorVCritic(nn.Module):
         self.reward_critic = VCritic(obs_dim, hidden_sizes)
         self.cost_critic = VCritic(obs_dim, hidden_sizes)
         self.actor = Actor(obs_dim, act_dim, hidden_sizes)
+
+        print('Seed in ActorVCritic is {}'.format(torch.initial_seed()))
 
     def get_value(self, obs):
         """
